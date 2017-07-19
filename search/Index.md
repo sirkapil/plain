@@ -1,7 +1,7 @@
 ---
 layout: notitle
 title: Search
-permalink: /search
+permalink: /search/
 ---
 
 <h1 class="page-title"><i class="fa fa-search" style="font-size:1em;"></i>&nbsp;Search</h1>
