@@ -26,4 +26,4 @@ $$a+nh = b $$ $$h = \frac{b-a}{n}$$</center>
 <br />
 $$\int_{a}^{b}f(x)dx \approx (b-a)\left[\frac{f(a)+f(b)}{2}\right]$$<br /><br />
 <h3>Composite Trapezoidal Rule -</h3>
-$$\int_{a}^{b}f(x)dx \approx(b-a)\left[\frac{f(a)+f(b)+2\sum_{k=1}^{n-1}f(a+kh)}{2n}\right]$$<br /><p align="right"> where $$h = \frac{b-a}{n}$$</p>
+$$\int_{a}^{b}f(x)dx \approx(b-a)\left[\frac{f(a)+f(b)+2\sum_{k=1}^{n-1}f(a+kh)}{2n}\right]$$<br /><right> where $$h = \frac{b-a}{n}$$</right>
