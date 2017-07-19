@@ -21,9 +21,9 @@ In General , If [a,b] is distribuited uniformly into n subintervals, Then
 $$a+nh = b $$ $$h = \frac{b-a}{n}$$</center>
 <br /><small>However it is also possible to do partition of [a,b] with irregular lengths , in such case Formulae for Trapezoidal rule is different (i'll post about it too in another aricle whenever it will be ready, a link to that article will be pasted here)
 </small>
-<h2>Formulae :</h2>
+<h3>Formulae :</h3>
 <h3>Simple Trapezoidal Rule -</h3>
 <br />
 $$\int_{a}^{b}f(x)dx \approx (b-a)\left[\frac{f(a)+f(b)}{2}\right]$$<br /><br />
 <h3>Composite Trapezoidal Rule -</h3>
-$$\int_{a}^{b}f(x)dx \approx$$ $$(b-a)\left[\frac{f(a)+f(b)+2\sum_{k=1}^{n-1}f(a+kh)}{2n}\right]$$ where $$h = \frac{b-a}{n}$$
+$$\int_{a}^{b}f(x)dx \approx(b-a)\left[\frac{f(a)+f(b)+2\sum_{k=1}^{n-1}f(a+kh)}{2n}\right]<br /><p align="right">$$ where $$h = \frac{b-a}{n}$$</p>
