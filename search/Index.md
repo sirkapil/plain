@@ -20,6 +20,6 @@ Powered by <a href="/blog/2016/01/04/how-to-make-lunrjs-jekyll-work-together/">l
 
 <ul id="search_results"></ul>
 
-<script src="/js/lunr.min.js"></script>
+<script src="http://rayhightower.com/js/lunr.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<script src="/js/search.js"></script>
+<script src="http://rayhightower.com/js/search.js"></script>
