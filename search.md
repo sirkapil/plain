@@ -6,7 +6,7 @@ permalink: /search/
 <div>
 
     <h2><a href="{{ site.url }}{{ page.url }}">Search</a></h2>
-    <section class="webdesigntuts-workshop">
+    <section>
 		
     <form> <input type="text" id="search-input" placeholder="What are you looking for ?" />
     </form> </section>
