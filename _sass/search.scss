@@ -1,7 +1,7 @@
 /* This is a partial SCSS file */
 
 div.search-query {
-    $button-color: lighten($theme-color, 15%);
+    $button-color: #6A5ACD
     $border-radius: 3px !default;
     $border-width: 1px !default;
     $border-color: #444 !default;
@@ -37,7 +37,7 @@ div.search-query {
 
         &:focus {
           outline: none;
-          border-color: $theme-color;
+          border-color: #6A5ACD;
           box-shadow: 0 0 2px $button-color;
         }
     }
