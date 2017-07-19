@@ -17,7 +17,7 @@ div.search-query {
     }
 
     a, a:hover, a:focus, a:active {
-        color: $black;
+        color: #696969;
         text-decoration: none;
     }
 
@@ -30,26 +30,26 @@ div.search-query {
         font-weight: lighter;
 
         border-style: solid;
-        border-color: $border-color;
-        border-width: $border-width;
-        border-radius: $border-radius;
-        transition: box-shadow .2s ease;
+        border-color: #00000;
+        border-width: 1px ;
+        border-radius: 2px ;
+       
 
         &:focus {
           outline: none;
           border-color: #6A5ACD;
-          box-shadow: 0 0 2px $button-color;
+          box-shadow: 0 0 2px #696969;
         }
     }
 }
 
 
 div.search-results {
-    border-top: 1px solid transparentize($base-gray, 0.9);
+    border-top: 1px solid transparentize(#808080, 0.9);
     font-size: 0.75em;
 
     div.single-search-result {
-        border-bottom: 1px solid transparentize($base-gray, 0.9);
+        border-bottom: 1px solid transparentize(#808080, 0.9);
         padding-top: 0.25em;
         padding-bottom: 0.25em;
         margin: 0;
