@@ -43,11 +43,13 @@ $$= \frac{h}{2}\left[f(a)+f(b)+2\sum\limits_{i=1}^{n-1}f(a+ih)\right] $$
 $$= \frac{(b-a)}{2n}\left[f(a)+f(b)+2\sum\limits_{i=1}^{n-1}f(a+ih)\right] $$ 
 
 as $$h = \frac{b-a}{n}$$<br />
-**Example**
+<div class="divider"></div>
+## Examples
+**Example 1**
 Let's take a very simple example , integrating $$f(x)= sin(x)$$ over interval [0,2] by partition into two uniform subinterval (n=2). <br />
 **Answer**
 ![Uniform Grid Composite Trapezoidal Rule integrating sine function over 0 to 2](/alpha/img/IMG_20170720_180952.jpg)
-
+<div class="divider"></div>
 <div class="isa_info">
 <b>Note :</b> If we will increase the value of <i>n</i> then partition will  become smaller and smaller and consequently our answer will be more accurate.
 <b>"As Smaller Partition , As Accurate Answer"</b></div>
@@ -58,7 +60,10 @@ Check this following image
 
 <br /><small>**Note:**
 However , it is also possible to do partition of [a,b] with irregular length.[^4]
-</small><div class="divider"></div>
+</small>
+
+<div class="divider"></div>
+
 <h3>Formulae :</h3>
 **Simple Trapezoidal Rule**
 <br />Equation(1) :
