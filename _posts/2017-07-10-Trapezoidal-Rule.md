@@ -8,7 +8,8 @@ tags: [Numerical Method]
 <div class="isa_info"><h1><i class="fa fa-arrow-right"></i>Introduction:</h1> <br /><p align="center">This is one of the Newton-Cotes Formulae used for evaluating approximate numerical value of a definite integral.</p></div>
 <!--more--><div class="divider"></div>
 <h2>Why "Trapezoidal" Name ?</h2>
-It approximates the region under the graph as a trapezoid.Look at following two images of simple and composite trapezoidal rules in action.
+It approximates the region under the graph as a trapezoid.Look at image of  trapezoidal rules in action.
+![trapezoidal in action](/alpha/img/IMG_20170720_174523.jpg)
 <div class="divider"></div>
 <h2>Accuracy : </h2>
 This Mehod is pretty accurate for evaluating approximate values of periodic functions over thier period.however it is not much accurate for non-periodic functions.Simple Trapezoidal rule[^1] even fails to integrate Quardratic polynomials so it has degree of precision 1 and  Composite Trapezoidal Rule[^2] fails to integrate a Cubic Polynomial so its degree of precision is 2.
@@ -16,7 +17,7 @@ This Mehod is pretty accurate for evaluating approximate values of periodic func
 <h2> How it Works ? </h2>
 <h3>Simple Trapezoidal Rule:</h3>
 
-
+![simple Trapezoidal rule](/alpha/img/IMG_20170720_181014.jpg)
 
 <h3> Composite Trapezoidal Rule:</h3>
 First , We do create partition for [a,b] where a and b are lower and upper limit of integral respectively.
@@ -42,6 +43,9 @@ $$= \frac{h}{2}\left[f(a)+f(b)+2\sum\limits_{i=1}^{n-1}f(a+ih)\right] $$
 $$= \frac{(b-a)}{2n}\left[f(a)+f(b)+2\sum\limits_{i=1}^{n-1}f(a+ih)\right] $$ 
 
 as $$h = \frac{b-a}{n}$$
+
+![Uniform Grid Composite Trapezoidal Rule integrating sine function over 0 to 2](/alpha/img/IMG_20170720_180952.jpg)
+
 
 
 <br /><small>**Note:**
