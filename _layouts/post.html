@@ -6,7 +6,7 @@ layout: default
 
 	<div class="center">
 		<h1>{{ page.title }}</h1>
-		<i class="fa fa-calendar" style="font-size:20px"></i><time>{{ page.date | date: '%B %-d, %Y' }} </time> By {{ page.author }}
+		<i class="fa fa-calendar" style="font-size:20px;color:red"></i><time>{{ page.date | date: '%B %-d, %Y' }} </time> <br /> {{ page.author }}
 	</div>
 
 	<div class="divider"></div>
@@ -23,7 +23,7 @@ layout: default
     <a class="next" href="{{ site.baseurl }}{{page.next.url}}" title="NEXT: {{page.next.title}}">&lt;&lt; Next Post</a>
 		<span> &middot; </span>
   {% endif %}
-		<a class="home" href="{{site.baseurl}}/" title="Back to Homepage"><i class="fa fa-home" style="font-size:20px"></i> Home </a>
+		<a class="home" href="{{site.baseurl}}/" title="Back to Homepage"><i class="fa fa-home" style="font-size:20px;color:blue"></i> Home </a>
   {% if page.previous.url %}
 		<span> &middot; </span>
     <a class="prev" href="{{ site.baseurl }}{{page.previous.url}}" title="PREV: {{page.previous.title}}">&gt;&gt;Previous Post</a>
