@@ -24,18 +24,15 @@ $$a+nh = b $$ $$h = \frac{b-a}{n}$$</center>
 <h3>Formulae :</h3>
 <h3>Simple Trapezoidal Rule -</h3>
 <br />
-$$\begin{equation}
-\eqref{eq:1}
-\int_{a}^{b}f(x)dx \approx (b-a)\left[\frac{f(a)+f(b)}{2}\right] \cdots
-\end{equation}$$
+$$\int_{a}^{b}f(x)dx \approx (b-a)\left[\frac{f(a)+f(b)}{2}\right]$$[^eq1]
 <h3>Composite Trapezoidal Rule</h3> 
-$$\begin{equation} \eqref{eq:2}
-\int_{a}^{b}f(x)dx \approx \frac{h}{2}\left[f(a)+f(b)+2\sum_{k=1}^{n-1}f(a+kh)\right] \cdots
-\end{equation}$$
+$$\int_{a}^{b}f(x)dx \approx \frac{h}{2}\left[f(a)+f(b)+2\sum_{k=1}^{n-1}f(a+kh)\right]$$[^eq2]
 
 
 
 [^1]: Simple Trapezoidal Rule
 [^2]: Composite Trapezoidal Rule
 [^3]: Link to [Trapezoidal Rule Nonuniform grids](/non-uniform-grid)
+[^eq1]: Simple
+[^eq2]: completed
 
