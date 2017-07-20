@@ -49,8 +49,8 @@ Let's take a very simple example , integrating $$f(x)= sin(x)$$ over interval [0
 ![Uniform Grid Composite Trapezoidal Rule integrating sine function over 0 to 2](/alpha/img/IMG_20170720_180952.jpg)
 
 <div class="isa_info">
-<b>Note : As Smaller Partition , As Accurate Answer</b> If we will increase the value of <i>n</i> then partition will  become smaller and smaller and consequently our answer will be more accurate.
-</div>
+<b>Note :</b> If we will increase the value of <i>n</i> then partition will  become smaller and smaller and consequently our answer will be more accurate.
+<b>"As Smaller Partition , As Accurate Answer"</b></div>
 
 Check this following image
 (Source- Wiki) showing how accuracy increase in answer while increasing _n_
