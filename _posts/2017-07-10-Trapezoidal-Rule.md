@@ -31,8 +31,7 @@ It forms a increasing monotonic finite sequence of points.
 $$ a < a+h < a+2h < \cdots < a+nh = b$$
 $$a+nh = b \\ h = \frac{b-a}{n}$$</center>
 
-Now, Apply Simple Trapezoidal Rule for each of the subinterval
-$$S_i    \forall  i  \in 1(1)n$$.
+Now, Apply Simple Trapezoidal Rule for each of the subinterval $$S_i$$.
 
 $$\int_{a}^{b} f(x) dx = \sum\limits_{i=1}^{n} [\int_{S_i}{} f(x)dx ]$$
 
