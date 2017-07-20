@@ -43,10 +43,15 @@ $$= \frac{h}{2}\left[f(a)+f(b)+2\sum\limits_{i=1}^{n-1}f(a+ih)\right] $$
 $$= \frac{(b-a)}{2n}\left[f(a)+f(b)+2\sum\limits_{i=1}^{n-1}f(a+ih)\right] $$ 
 
 as $$h = \frac{b-a}{n}$$
-
+**Example**
+Let's take a very simple example , integrating $$f(x)= sin(x)$$ over interval [0,2] by partition into two uniform subinterval (n=2). 
+**Answer**
 ![Uniform Grid Composite Trapezoidal Rule integrating sine function over 0 to 2](/alpha/img/IMG_20170720_180952.jpg)
+<div class="isa_info">
+**Note : As Smaller Partition , As Accurate Answer**. If we will increase the value of _n_ then partition will  become smaller and smaller and consequently our answer will be more accurate.</div>
 
-![Uniform Grid Composite Trapezoidal Rule integrating sine function over 0 to 2](/alpha/img/trapezium2.gif)
+Check this following image(Source- Wiki) showing how accuracy increase in answer while increasing _n_
+![Effect of increasing n in composite Trapezoidal rule](/alpha/img/trapezium2.gif)
 
 <br /><small>**Note:**
 However , it is also possible to do partition of [a,b] with irregular length.[^4]
@@ -66,6 +71,10 @@ $$\int_{a}^{b}f(x)dx \approx \frac{(b-a)}{2n}\left[f(a)+f(b)+2\sum\limits_{k=1}^
 [^3]: that same length is named as _Step Size_ , denoted by _h_ and is always a positive number.
 [^4]: Link to Article [Trapezoidal Rule with non-uniform step size](/non-uniform-step-size-trapezoidal-rule)
 
+Source : 
+1.Book (Numerical Methods) By M.K Jain and Co. IIT Delhi.
+2.Satyendra K. (My N.M. Teacher)
+3.Wikipedia (For few images)
 
 
 
