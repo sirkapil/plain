@@ -29,8 +29,7 @@ $$\begin{equation} \label{eq1}
 <h3>Composite Trapezoidal Rule</h3> 
 $$\begin{equation} \label{eq2}
 \int_{a}^{b}f(x)dx & \approx \frac{h}{2}\left[f(a)+f(b)+2\sum_{k=1}^{n-1}f(a+kh)\right]
-\end{equation}
-\end{align}$$
+\end{equation}$$
 
 
 
