@@ -42,7 +42,7 @@ $$= \frac{h}{2}\left[f(a)+f(b)+2\sum\limits_{i=1}^{n-1}f(a+ih)\right] $$
 
 $$= \frac{(b-a)}{2n}\left[f(a)+f(b)+2\sum\limits_{i=1}^{n-1}f(a+ih)\right] $$ 
 
-As $$h = \frac{b-a}{n}$$
+as $$h = \frac{b-a}{n}$$
 
 
 <br /><small>**Note:**
@@ -59,8 +59,9 @@ $$\int_{a}^{b}f(x)dx \approx \frac{(b-a)}{2n}\left[f(a)+f(b)+2\sum\limits_{k=1}^
 
 
 [^1]: Simple Trapezoidal Rule is just a special case of composite Trapezoidal Rule with (n=1), i.e. in simple trapezoidal rule , we don't partition the interval [a,b] into further subintervals.
+[^2]: Composite Trapezoidal Rule is much accurate than Simple Trapezoidal Rule.
 [^3]: that same length is named as _Step Size_ , denoted by _h_ and is always a positive number.
-[^4]: Link to Article [Trapezoidal Rule with non-unfirorm step size](/)
+[^4]: Link to Article [Trapezoidal Rule with non-uniform step size](/non-uniform-step-size-trapezoidal-rule)
 
 
 
