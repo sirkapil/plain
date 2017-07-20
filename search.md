@@ -3,12 +3,15 @@ layout: default
 title: Search
 permalink: /search/
 ---
-
 <div>
-    <h2><a href="{{ site.url }}{{ page.url }}">Search</a></h2>
-    <input type="text" id="search-input" placeholder="Search entire site" />
-</div>
 
+    <h2><a href="{{ site.url }}{{ page.url }}">Search</a></h2>
+    <section>
+		
+    <form> <input type="text" id="search-input" placeholder="What are you looking for ?" />
+    </form> </section>
+
+</div>
 
 <div class="search-results" id="results-container"></div>
 
