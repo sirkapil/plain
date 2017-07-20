@@ -71,6 +71,13 @@ $$\int_{a}^{b}f(x)dx \approx \frac{(b-a)}{2n}\left[f(a)+f(b)+2\sum\limits_{k=1}^
 **Example (1)**
 Let's take a very simple example , integrating $$f(x)= sin(x)$$ over interval [0,2] by partition into two uniform subinterval (n=2). <br />
 **Answer**
+We are given $$a = 0 \\ b = 2 \\ n =2$$.
+Step Size (h) $$ =\frac{(b-a)}{n} \\ =\frac{(2-0)}{2} = 1$$
+
+Now Using Composite Trapezoidal Formulae ,
+
+$$\int_{0}{2}sin(x)dx \approx \frac{1}{2}\left[sin(0)+2 sin(1) + sin(2)\right]$$
+
 ![Uniform Grid Composite Trapezoidal Rule integrating sine function over 0 to 2](/alpha/img/IMG_20170720_180952.jpg)
 <div class="divider"></div>
 
