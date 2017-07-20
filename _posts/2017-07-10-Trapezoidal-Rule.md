@@ -15,19 +15,32 @@ This Mehod is pretty accurate for evaluating approximate values of periodic func
 <div class="divider"></div>
 <h2> How it Works ? </h2>
 First , We do create partition for [a,b] where a and b are lower and upper limit of integral respectively.
-In Regular Grids or Uniform Partition, [a,b] interval is distributed into N subintervals of same length (Named as Step size and denoted by 'h')
-In General , If [a,b] is distribuited uniformly into n subintervals, Then
+In Regular Grids or Uniform Partition, [a,b] interval is distributed into N subintervals of same length[^3]
+**In General**, If [a,b] is distributed uniformly into n subintervals.Let $$S_i$$ be $$i^{th}}$$ interval with step size.
+$$S_1 = [a,a+h] \\ S_2 = [a+h,a+2h] \\ \cdots S_i = [a+(i-1)h,a+i-h] \\ S_n = [a+(n-1)h,b]$$ 
+
+$$[a,b] = \bigcup_{i=1}^{n} S_i$$
+
+Or
+
 <center>$$ a < a+h < a+2h < \cdots < a+nh = b$$
 $$a+nh = b $$ $$h = \frac{b-a}{n}$$</center>
-<br /><small>However it is also possible to do partition of [a,b] with irregular lengths , in such case Formulae for Trapezoidal rule is different
+<br /><small>**Note:**
+However , it is also possible to do partition of [a,b] with irregular length.[^4]
 </small>
 <h3>Formulae :</h3>
 <h3>Simple Trapezoidal Rule -</h3>
-<br />Eq<sup>n</sup>(1) :
+<br />Equation(1) :
 $$\int_{a}^{b}f(x)dx \approx (b-a)\left[\frac{f(a)+f(b)}{2}\right]$$
 <h3>Composite Trapezoidal Rule</h3>
-Eq<sup>n</sup> (2) :
-$$\int_{a}^{b}f(x)dx \approx \frac{h}{2}\left[f(a)+f(b)+2\sum_{k=1}^{n-1}f(a+kh)\right]$$
+Equation(2) :
+$$\int_{a}^{b}f(x)dx \approx \frac{h}{2}\left[f(a)+f(b)+2\sum\limits_{k=1}^{n-1}f(a+kh)\right]$$
+
+
+
+[^1]: Simple Trapezoidal Rule is just a special case of composite Trapezoidal Rule with (n=1), i.e. in simple trapezoidal rule , we don't partition the interval [a,b] into further subintervals.
+[^3]: that same length is named as '_Step Size_' and denoted by '_h_' and is always a positive number.
+[^4]: Link to Article [Trapezoidal Rule with non-unfirorm step size](/)
 
 
 
