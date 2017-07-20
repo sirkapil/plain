@@ -14,10 +14,15 @@ It approximates the region under the graph as a trapezoid.Look at following two 
 This Mehod is pretty accurate for evaluating approximate values of periodic functions over thier period.however it is not much accurate for non-periodic functions.Simple Trapezoidal rule[^1] even fails to integrate Quardratic polynomials so it has degree of precision 1 and  Composite Trapezoidal Rule[^2] fails to integrate a Cubic Polynomial so its degree of precision is 2.
 <div class="divider"></div>
 <h2> How it Works ? </h2>
+<h3>Simple Trapezoidal Rule:</h3>
+
+
+
+<h3> Composite Trapezoidal Rule:</h3>
 First , We do create partition for [a,b] where a and b are lower and upper limit of integral respectively.
 In Regular Grids or Uniform Partition, [a,b] interval is distributed into $$n$$ subintervals of same length[^3].
 **In General**, If [a,b] is distributed uniformly into n subintervals. Let $$S_i$$ be $$i^{th}$$ interval with step size(_h_).
-$$S_1 = [a , a+h] \\ S_2 = [a+h , a+2h] \\$$ <center>$$\vdots$$</center> $$\\ S_i = [a+(i-1)h , a+ih] \\$$ <center> $$ \vdots $$ </center>$$ \\ S_n = [a+(n-1)h , b]$$ 
+$$S_1 = [a , a+h] \\ S_2 = [a+h , a+2h] \\ \vdots \\ S_i = [a+(i-1)h , a+ih] \\ \vdots \\ S_n = [a+(n-1)h , b]$$ 
 <center>
 $$[a,b] = \bigcup_{i=1}^{n} S_i$$
 </center>
@@ -25,6 +30,10 @@ It forms a increasing monotonic finite sequence of points.
 <center>
 $$ a < a+h < a+2h < \cdots < a+nh = b$$
 $$a+nh = b \\ h = \frac{b-a}{n}$$</center>
+
+Now, Apply Simple Trapezoidal Rule for each of the subinterval $$(S_i) ; \forall i \in 1(1)n$$.
+$$\int_{a}^{b} f(x) dx ≈ \sum\limit_{i=1}^{i=n} \int_S_i f(x) dx $$
+
 <br /><small>**Note:**
 However , it is also possible to do partition of [a,b] with irregular length.[^4]
 </small>
