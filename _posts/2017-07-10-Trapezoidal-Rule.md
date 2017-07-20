@@ -42,15 +42,16 @@ $$= \frac{h}{2}\left[f(a)+f(b)+2\sum\limits_{i=1}^{n-1}f(a+ih)\right] $$
 
 $$= \frac{(b-a)}{2n}\left[f(a)+f(b)+2\sum\limits_{i=1}^{n-1}f(a+ih)\right] $$ 
 
-as $$h = \frac{b-a}{n}$$
+as $$h = \frac{b-a}{n}$$<br />
 **Example**
-Let's take a very simple example , integrating $$f(x)= sin(x)$$ over interval [0,2] by partition into two uniform subinterval (n=2). 
+Let's take a very simple example , integrating $$f(x)= sin(x)$$ over interval [0,2] by partition into two uniform subinterval (n=2). <br />
 **Answer**
 ![Uniform Grid Composite Trapezoidal Rule integrating sine function over 0 to 2](/alpha/img/IMG_20170720_180952.jpg)
 <div class="isa_info">
-**Note : As Smaller Partition , As Accurate Answer**. If we will increase the value of _n_ then partition will  become smaller and smaller and consequently our answer will be more accurate.</div>
+<b><i>Note : As Smaller Partition , As Accurate Answer</b></i> If we will increase the value of <i>n</i> then partition will  become smaller and smaller and consequently our answer will be more accurate.</div>
 
-Check this following image(Source- Wiki) showing how accuracy increase in answer while increasing _n_
+Check this following image
+(Source- Wiki) showing how accuracy increase in answer while increasing _n_
 ![Effect of increasing n in composite Trapezoidal rule](/alpha/img/trapezium2.gif)
 
 <br /><small>**Note:**
@@ -64,17 +65,18 @@ $$\int_{a}^{b}f(x)dx \approx (b-a)\left[\frac{f(a)+f(b)}{2}\right]$$
 Equation(2) :
 $$\int_{a}^{b}f(x)dx \approx \frac{(b-a)}{2n}\left[f(a)+f(b)+2\sum\limits_{k=1}^{n-1}f(a+kh)\right]$$ 
 
+Source : 
+1.Book (Numerical Methods) By M.K Jain and Co. IIT Delhi.
+2.Satyendra K. (My N.M. Teacher)
+3.Wikipedia (For few images)
+
+
 
 
 [^1]: Simple Trapezoidal Rule is just a special case of composite Trapezoidal Rule with (n=1), i.e. in simple trapezoidal rule , we don't partition the interval [a,b] into further subintervals.
 [^2]: Composite Trapezoidal Rule is much accurate than Simple Trapezoidal Rule.
 [^3]: that same length is named as _Step Size_ , denoted by _h_ and is always a positive number.
 [^4]: Link to Article [Trapezoidal Rule with non-uniform step size](/non-uniform-step-size-trapezoidal-rule)
-
-Source : 
-1.Book (Numerical Methods) By M.K Jain and Co. IIT Delhi.
-2.Satyendra K. (My N.M. Teacher)
-3.Wikipedia (For few images)
 
 
 
