@@ -5,7 +5,7 @@ author: Kapil Chaudhary
 excerpt_separator: <!--more-->
 tags: [Numerical Method]
 ---
-<div class="isa_info"><h1><i class="fa fa-arrow-right"></i>Introduction:</h1> <br /><p align="center">This is one of the Newton-Cotes Formulae used for evaluating approximate numerical value of a definite integral.</p></div>
+<div class="isa_info"><h1><i class="fa fa-info"></i>ntroduction:</h1><p align="center">This is one of the Newton-Cotes Formulae used for evaluating approximate numerical value of a definite integral.</p></div>
 <!--more--><div class="divider"></div>
 <h2>Why "Trapezoidal" Name ?</h2>
 It approximates the region under the graph as a trapezoid.Look at image of  trapezoidal rules in action.
@@ -44,12 +44,6 @@ $$= \frac{(b-a)}{2n}\left[f(a)+f(b)+2\sum\limits_{i=1}^{n-1}f(a+ih)\right] $$
 
 as $$h = \frac{b-a}{n}$$<br />
 <div class="divider"></div>
-## Examples
-**Example 1**
-Let's take a very simple example , integrating $$f(x)= sin(x)$$ over interval [0,2] by partition into two uniform subinterval (n=2). <br />
-**Answer**
-![Uniform Grid Composite Trapezoidal Rule integrating sine function over 0 to 2](/alpha/img/IMG_20170720_180952.jpg)
-<div class="divider"></div>
 <div class="isa_info">
 <b>Note :</b> If we will increase the value of <i>n</i> then partition will  become smaller and smaller and consequently our answer will be more accurate.
 <b>"As Smaller Partition , As Accurate Answer"</b></div>
@@ -72,6 +66,12 @@ $$\int_{a}^{b}f(x)dx \approx (b-a)\left[\frac{f(a)+f(b)}{2}\right]$$
 Equation(2) :
 $$\int_{a}^{b}f(x)dx \approx \frac{(b-a)}{2n}\left[f(a)+f(b)+2\sum\limits_{k=1}^{n-1}f(a+kh)\right]$$ 
 
+<div class="divider"></div>
+## Examples :
+**Example (1)**
+Let's take a very simple example , integrating $$f(x)= sin(x)$$ over interval [0,2] by partition into two uniform subinterval (n=2). <br />
+**Answer**
+![Uniform Grid Composite Trapezoidal Rule integrating sine function over 0 to 2](/alpha/img/IMG_20170720_180952.jpg)
 <div class="divider"></div>
 
 ### Error Analysis[^error]
