@@ -6,7 +6,7 @@ layout: default
 
 	<div class="center">
 		<h1>{{ page.title }}</h1>
-		<i class="fa fa-calendar" style="font-size:20px;color:red"></i> <time>{{ page.date | date: '%B %-d, %Y' }} </time> <br /><br />By {{ page.author }}
+		<i class="fa fa-calendar" style="font-size:20px;color:red"></i> <time>{{ page.date | date: '%B %-d, %Y' }}  </time> <br /><br />By {{ page.author }}
 	</div>
 
 	<div class="divider"></div>
@@ -26,6 +26,6 @@ layout: default
 		<a class="home" href="{{site.baseurl}}/" title="Back to Homepage"><i class="fa fa-home" style="font-size:20px;color:red"></i> Home </a>
   {% if page.previous.url %}
 		<span> &middot; </span>
-    <a class="prev" href="{{ site.baseurl }}{{page.previous.url}}" title="PREV: {{page.previous.title}}">&gt;&gt;Previous Post</a>
+    <a class="prev" href="{{ site.baseurl }}{{page.previous.url}}" title="PREV: {{page.previous.title}}"> Previous Post &gt;&gt;</a>
   {% endif %}
 </div>
