@@ -67,13 +67,16 @@ $$\int_{a}^{b}f(x)dx \approx (b-a)\left[\frac{f(a)+f(b)}{2}\right]$$
 Equation(2) :
 $$\int_{a}^{b}f(x)dx \approx \frac{(b-a)}{2n}\left[f(a)+f(b)+2\sum\limits_{k=1}^{n-1}f(a+kh)\right]$$ 
 
+<div class="divider"></div>
+
+### Error Analysis
 
 
 
-
-Source : 
-1.Book (Numerical Methods) By M.K Jain and Co. IIT Delhi.
-2.Satyendra K. (My N.M. Teacher)
+<div class="divider"></div>
+**Source / Credits :** <br />
+1.Book (Numerical Methods) By M.K Jain and Co. IIT Delhi.<br />
+2.Satyendra K. (My N.M. Teacher)<br />
 3.Wikipedia (For few images)
 
 
