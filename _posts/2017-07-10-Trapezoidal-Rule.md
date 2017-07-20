@@ -33,5 +33,6 @@ $$\begin{align}
 \end{align}$$
 
 
+
 [^1]: Simple Trapezoidal Rule
 [^2]: Compsite
