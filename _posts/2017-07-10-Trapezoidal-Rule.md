@@ -29,6 +29,7 @@ $$\begin{align}
 <h3>Composite Trapezoidal Rule -</h3>
 $$\begin{align}
 \int_{a}^{b}f(x)dx \approx \frac{h}{2}\left[f(a)+f(b)+2\sum_{k=1}^{n-1}f(a+kh)\right]
+\tag{1} \label{eq:sample}
 \end{align}$$
 
 
