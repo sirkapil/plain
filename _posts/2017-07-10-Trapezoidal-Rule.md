@@ -58,18 +58,18 @@ Check this following image
 
 <br /><small>**Note:**
 However , it is also possible to do partition of [a,b] with irregular length.[^4]
-</small>
+</small><div class="divider"></div>
 <h3>Formulae :</h3>
-<h3>Simple Trapezoidal Rule -</h3>
+**Simple Trapezoidal Rule**
 <br />Equation(1) :
 $$\int_{a}^{b}f(x)dx \approx (b-a)\left[\frac{f(a)+f(b)}{2}\right]$$
-<h3>Composite Trapezoidal Rule</h3>
+**Composite Trapezoidal Rule**<br />
 Equation(2) :
 $$\int_{a}^{b}f(x)dx \approx \frac{(b-a)}{2n}\left[f(a)+f(b)+2\sum\limits_{k=1}^{n-1}f(a+kh)\right]$$ 
 
 <div class="divider"></div>
 
-### Error Analysis
+### Error Analysis[^error]
 
 
 
@@ -86,7 +86,6 @@ $$\int_{a}^{b}f(x)dx \approx \frac{(b-a)}{2n}\left[f(a)+f(b)+2\sum\limits_{k=1}^
 [^2]: Composite Trapezoidal Rule is much accurate than Simple Trapezoidal Rule.
 [^3]: that same length is named as _Step Size_ , denoted by _h_ and is always a positive number.
 [^4]: Link to Article [Trapezoidal Rule with non-uniform step size](/non-uniform-step-size-trapezoidal-rule)
-
-
+[^error]: As Thread is getting heavier (taking too time to render mathjax output) , so creating [new thread for error analysis](/error-analysis-trapezoidal)
 
 
