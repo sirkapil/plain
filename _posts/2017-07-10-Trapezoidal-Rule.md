@@ -31,8 +31,18 @@ It forms a increasing monotonic finite sequence of points.
 $$ a < a+h < a+2h < \cdots < a+nh = b$$
 $$a+nh = b \\ h = \frac{b-a}{n}$$</center>
 
-Now, Apply Simple Trapezoidal Rule for each of the subinterval $$S_i$$ ; $$ \forall  i  \in 1(1)n$$.
-$$\int_{a}^{b} f(x) dx \approx \sum\limits_{i=1}^{i=n} \int_{S_i}{} f(x) dx $$
+Now, Apply Simple Trapezoidal Rule for each of the subinterval
+$$S_i    \forall  i  \in 1(1)n$$.
+
+$$\int_{a}^{b} f(x) dx = \sum\limits_{i=1}^{i=n} [\int_{S_i}{} f(x)dx ]$$
+
+$$\approx \sum\limits_{i=1}^{i=n} h\left[\frac{f(a+(i-1)h)+f(a+ih)}{2}\right]$$
+
+$$= \frac{h}{2}\left[f(a)+f(b)+2\sum\limits_{k=1}^{n-1}f(a+kh)\right] $$
+
+$$= \frac{(b-a)}{2n}\left[f(a)+f(b)+2\sum\limits_{k=1}^{n-1}f(a+kh)\right] $$ 
+
+As $$h = \frac{b-a}{n}$$
 
 <br /><small>**Note:**
 However , it is also possible to do partition of [a,b] with irregular length.[^4]
