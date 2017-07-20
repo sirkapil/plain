@@ -17,12 +17,12 @@ This Mehod is pretty accurate for evaluating approximate values of periodic func
 First , We do create partition for [a,b] where a and b are lower and upper limit of integral respectively.
 In Regular Grids or Uniform Partition, [a,b] interval is distributed into $$n$$ subintervals of same length[^3].
 **In General**, If [a,b] is distributed uniformly into n subintervals. Let $$S_i$$ be $$i^{th}$$ interval with step size(_h_).
-$$S_1 = [a , a+h] \\ S_2 = [a+h,a+2*h] \\ \vdots \\ S_i = [a+(i-1)*h , a+ih] \\ S_n = [a+(n-1)h , b]$$ 
+$$S_1 = [a , a+h] \\ S_2 = [a+h , a+2h] \\ \vdots \\ S_i = [a+(i-1)h , a+ih] \\ \vdots \\ S_n = [a+(n-1)h , b]$$ 
 <center>
 $$[a,b] = \bigcup_{i=1}^{n} S_i$$
-
-
-
+</center>
+It forms a increasing monotonic finite sequence of points.
+<center>
 $$ a < a+h < a+2h < \cdots < a+nh = b$$
 $$a+nh = b \\ h = \frac{b-a}{n}$$</center>
 <br /><small>**Note:**
