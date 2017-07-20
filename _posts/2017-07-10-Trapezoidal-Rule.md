@@ -23,10 +23,10 @@ $$a+nh = b $$ $$h = \frac{b-a}{n}$$</center>
 </small>
 <h3>Formulae :</h3>
 <h3>Simple Trapezoidal Rule -</h3>
-<br />Equation (1)
+<br />Eq<sup>n</sup>(1) :
 $$\int_{a}^{b}f(x)dx \approx (b-a)\left[\frac{f(a)+f(b)}{2}\right]$$
 <h3>Composite Trapezoidal Rule</h3>
-Equation (2)
+Eq<sup>n</sup> (2) :
 $$\int_{a}^{b}f(x)dx \approx \frac{h}{2}\left[f(a)+f(b)+2\sum_{k=1}^{n-1}f(a+kh)\right]$$
 
 
