@@ -6,16 +6,17 @@ layout: default
 
 	<div class="center">
 		<h1>{{ page.title }}</h1>
-		<time>{{ page.date | date: '%B %-d, %Y' }}</time> {{ page.author }}
+		<time>{{ page.date | date: '%B %-d, %Y' }}</time> , Written by  {{ page.author }}
 	</div>
 
 	<div class="divider"></div>
 
 	{{ content }}
 
+  <div class="divider"></div>
 </article>
 
-<div class="divider"></div>
+
 
 <div class="page-navigation">
 	{% if page.next.url %}
