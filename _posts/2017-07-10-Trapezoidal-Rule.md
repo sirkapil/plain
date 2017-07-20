@@ -5,7 +5,7 @@ author: Kapil Chaudhary
 excerpt_separator: <!--more-->
 tags: [Numerical Method]
 ---
-<div class="isa_info"><i class="fa fa-arrow-right" style="font-size:20px"></i><h1>Introduction:</h1> <br /><p align="center">This is one of the Newton-Cotes Formulae used for evaluating approximate numerical value of a definite integral.</p></div>
+<div class="isa_info"><h1><i class="fa fa-arrow-right"></i>Introduction:</h1> <br /><p align="center">This is one of the Newton-Cotes Formulae used for evaluating approximate numerical value of a definite integral.</p></div>
 <!--more--><div class="divider"></div>
 <h2>Why "Trapezoidal" Name ?</h2>
 It approximates the region under the graph as a trapezoid.Look at following two images of simple and composite trapezoidal rules in action.
