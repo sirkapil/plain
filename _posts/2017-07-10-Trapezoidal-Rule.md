@@ -22,16 +22,16 @@ $$a+nh = b $$ $$h = \frac{b-a}{n}$$</center>
 <br /><small>However it is also possible to do partition of [a,b] with irregular lengths , in such case Formulae for Trapezoidal rule is different (i'll post about it too in another aricle whenever it will be ready, a link to that article will be pasted here)
 </small>
 <h3>Formulae :</h3>
-<h3>Simple Trapezoidal Rule -[^1]</h3>
+<h3>Simple Trapezoidal Rule -</h3>[^1]
 <br />
 $$\begin{align}
 \int_{a}^{b}f(x)dx \approx (b-a)\left[\frac{f(a)+f(b)}{2}\right]\end{align}$$<br /><br />
-<h3>Composite Trapezoidal Rule -</h3>
+<h3>Composite Trapezoidal Rule</h3> [^2]
 $$\begin{align}
 \int_{a}^{b}f(x)dx \approx \frac{h}{2}\left[f(a)+f(b)+2\sum_{k=1}^{n-1}f(a+kh)\right]
 \tag{1} \label{eq:sample}
 \end{align}$$
 
 
-[^1]: #####Simple Trapezoidal Rule
-[^2]: #####Compsite
+[^1]: Simple Trapezoidal Rule
+[^2]: Compsite
