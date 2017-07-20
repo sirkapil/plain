@@ -34,4 +34,4 @@ updated: 2015-09-06 15:56
 
 <div class="isa_warning">
 <i class="fa fa-star" style="font-size:25px"></i><b>Note :</b><br />
-<p align="right"This is warning text</p></div>
+<p align="right">This is warning text</p></div>
