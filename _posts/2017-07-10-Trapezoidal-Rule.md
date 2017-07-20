@@ -47,8 +47,10 @@ as $$h = \frac{b-a}{n}$$<br />
 Let's take a very simple example , integrating $$f(x)= sin(x)$$ over interval [0,2] by partition into two uniform subinterval (n=2). <br />
 **Answer**
 ![Uniform Grid Composite Trapezoidal Rule integrating sine function over 0 to 2](/alpha/img/IMG_20170720_180952.jpg)
+
 <div class="isa_info">
-<b><i>Note : As Smaller Partition , As Accurate Answer</b></i> If we will increase the value of <i>n</i> then partition will  become smaller and smaller and consequently our answer will be more accurate.</div>
+<b>Note : As Smaller Partition , As Accurate Answer</b> If we will increase the value of <i>n</i> then partition will  become smaller and smaller and consequently our answer will be more accurate.
+</div>
 
 Check this following image
 (Source- Wiki) showing how accuracy increase in answer while increasing _n_
@@ -64,6 +66,10 @@ $$\int_{a}^{b}f(x)dx \approx (b-a)\left[\frac{f(a)+f(b)}{2}\right]$$
 <h3>Composite Trapezoidal Rule</h3>
 Equation(2) :
 $$\int_{a}^{b}f(x)dx \approx \frac{(b-a)}{2n}\left[f(a)+f(b)+2\sum\limits_{k=1}^{n-1}f(a+kh)\right]$$ 
+
+
+
+
 
 Source : 
 1.Book (Numerical Methods) By M.K Jain and Co. IIT Delhi.
