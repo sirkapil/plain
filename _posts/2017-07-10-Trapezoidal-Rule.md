@@ -46,7 +46,7 @@ as $$h = \frac{b-a}{n}$$
 
 ![Uniform Grid Composite Trapezoidal Rule integrating sine function over 0 to 2](/alpha/img/IMG_20170720_180952.jpg)
 
-
+![Uniform Grid Composite Trapezoidal Rule integrating sine function over 0 to 2](/alpha/img/trapezium2.gif)
 
 <br /><small>**Note:**
 However , it is also possible to do partition of [a,b] with irregular length.[^4]
