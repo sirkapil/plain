@@ -33,5 +33,5 @@ updated: 2015-09-06 15:56
 <div class="isa_error">Replace this text with your own ERROR text.</div>
 
 <div class="isa_warning">
-<i class="fa fa-star" style="font-size:25px"></i><b>Note :</b><br />
+<i class="fa fa-star" style="font-size:20px"></i><b>Note :</b><br />
 <p align="right">This is warning text</p></div>
