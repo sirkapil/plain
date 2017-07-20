@@ -11,8 +11,7 @@ tags: [Numerical Method]
 It approximates the region under the graph as a trapezoid.Look at following two images of simple and composite trapezoidal rules in action -
 <div class="divider"></div>
 <h2>Accuracy : </h2>
-This Mehod is pretty accurate for evaluating approximate values of periodic functions over thier period.
-however it is not much accurate for non-periodic functions.Simple Trapezoidal rule even fails to integrate Quardratic polynomials so it has degree of precision 1 and A Composite Trapezoidal Rule fails to integrate a Cubic Polynomial so its degree of precision is 2.
+This Mehod is pretty accurate for evaluating approximate values of periodic functions over thier period.however it is not much accurate for non-periodic functions.Simple Trapezoidal rule even fails to integrate Quardratic polynomials so it has degree of precision 1 and A Composite Trapezoidal Rule fails to integrate a Cubic Polynomial so its degree of precision is 2.
 <div class="divider"></div>
 <h2> How it Works ? </h2>
 First , We do create partition for [a,b] where a and b are lower and upper limit of integral respectively.
@@ -23,8 +22,12 @@ $$a+nh = b $$ $$h = \frac{b-a}{n}$$</center>
 <br /><small>However it is also possible to do partition of [a,b] with irregular lengths , in such case Formulae for Trapezoidal rule is different (i'll post about it too in another aricle whenever it will be ready, a link to that article will be pasted here)
 </small>
 <h3>Formulae :</h3>
-<h3>Simple Trapezoidal Rule -</h3>
+<h3>Simple Trapezoidal Rule -[^1]</h3>
 <br />
-$$\int_{a}^{b}f(x)dx \approx (b-a)\left[\frac{f(a)+f(b)}{2}\right]$$<br /><br />
+$$\int_{a}^{b}f(x)dx \approx (b-a)\left[\frac{f(a)+f(b)}{2}\right] \eqref{eq:1}$$<br /><br />
 <h3>Composite Trapezoidal Rule -</h3>
-$$\int_{a}^{b}f(x)dx \approx \frac{h}{2}\left[f(a)+f(b)+2\sum_{k=1}^{n-1}f(a+kh)\right]$$
+$$\int_{a}^{b}f(x)dx \approx \frac{h}{2}\left[f(a)+f(b)+2\sum_{k=1}^{n-1}f(a+kh)\right] \eqref{eq:2}$$
+
+
+[^1]:##Simple Trapezoidal Rule
+[^2]:## Compsite
