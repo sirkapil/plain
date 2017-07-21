@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Search
-permalink: /search0/
+permalink: /search/
 ---
 <div>
 
