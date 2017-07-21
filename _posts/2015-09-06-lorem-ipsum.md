@@ -36,4 +36,6 @@ updated: 2015-09-06 15:56
 <i class="fa fa-star" style="font-size:20px"></i><b>Note :</b><br />
 <p align="right">This is warning text</p></div>
 
-$$\documentclass{article} \usepackage{amsmath} \usepackage{tcolorbox} \begin{document} \begin{tcolorbox} blablabla \begin{align} E &= mc^2 & \text{Formula of the universe} \end{align} Hoaray \end{tcolorbox} \end{document}$$
+$$\begin{tcolorbox} blablabla \begin{align} E &= mc^2 &
+ \text{Formula of the universe}
+ \end{align} Hoaray \end{tcolorbox}$$
