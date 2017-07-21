@@ -76,8 +76,12 @@ Step Size (h) $$ =\frac{(b-a)}{n} \\ =\frac{(2-0)}{2} = 1$$
 
 Now Using Composite Trapezoidal Formulae ,
 
-$$\int_{0}^{2} sin(x)dx \approx \frac{1}{2}\left[sin(0)+2 sin(1) + sin(2)\right] \\ \approx 1.2961$$
+$$\int_{0}^{2} sin(x)dx \approx \frac{1}{2}\left[sin(0)+2 sin(1) + sin(2)\right] \\ \approx 1.2961 (Rounding off 4th Digit$$
 
+Now let's count how much error is there : <br />
+Error = |Actual Integral Value - Integral Value by Trapezoidal Rule|
+
+$$Actual Integral Value \\ = \int_{0}^{2}sin(x)dx \\= [-cos(x)]_{0}^{2} \\= -cos(2)+cos(0) \\ \approx 1.4161(rounding off 4th digit)
 ![Uniform Grid Composite Trapezoidal Rule integrating sine function over 0 to 2](/alpha/img/IMG_20170720_180952.jpg)
 <div class="divider"></div>
 
