@@ -5,11 +5,11 @@ author: Kapil Chaudhary
 excerpt_separator: <!--more-->
 tags: [Numerical Method]
 ---
-<div class="isa_info"><h1><i class="fa fa-info"></i>ntroduction:</h1><p align="center">This is one of the Newton-Cotes Formulae used for evaluating approximate numerical value of a definite integral.</p></div>
+<div class="isa_info"><h1><i class="fa fa-arrow"></i>Introduction:</h1><p align="left">This is one of the Newton-Cotes Formulae used for evaluating approximate numerical value of a definite integral (mostly used for finding out approximate area of any function filling to axis)  </p></div>
 <!--more--><div class="divider"></div>
 <h2>Why "Trapezoidal" Name ?</h2>
 It approximates the region under the graph as a trapezoid.Look at image of  trapezoidal rules in action.
-![trapezoidal in action](/alpha/img/IMG_20170720_174523.jpg)
+![trapezoidal in action](/alpha/img/IMG_20170720_174523.jpg)<small>Shaded region shows the area calculated by trapezoidal rule </small>
 <div class="divider"></div>
 <h2>Accuracy : </h2>
 This Mehod is pretty accurate for evaluating approximate values of periodic functions over thier period.however it is not much accurate for non-periodic functions.Simple Trapezoidal rule[^1] even fails to integrate Quardratic polynomials so it has degree of precision 1 and  Composite Trapezoidal Rule[^2] fails to integrate a Cubic Polynomial so its degree of precision is 2.
