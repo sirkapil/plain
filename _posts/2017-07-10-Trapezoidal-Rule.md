@@ -6,11 +6,12 @@ excerpt_separator: <!--more-->
 tags: [Numerical Method]
 ---
 <div class="isa_info"><i class="fa fa-star"></i><p align="left">This is one of the Newton-Cotes Formulae used for evaluating approximate numerical value of a definite integral (mostly used for finding out approximate area of any function filling to axis)  </p></div><br />
-<!--more--><div class="divider"></div>
+<!--more-->
+<div class="divider"></div>
 <h2>Why "Trapezoidal" Name ?</h2>
 It approximates the region under the graph as a trapezoid.Look at image of  trapezoidal rules in action.
 ![trapezoidal in action](//sirkapil.github.io/alpha/img/IMG_20170720_174523.jpg)
-<br /><small>Shaded region shows the area calculated by trapezoidal rule </small>
+<br /><small>Shaded region in image shows the area calculated by trapezoidal rule for a random function.  </small>
 <div class="divider"></div>
 <h2>Accuracy : </h2>
 This Mehod is pretty accurate for evaluating approximate values of periodic functions over thier period.however it is not much accurate for non-periodic functions.Simple Trapezoidal rule[^1] even fails to integrate Quardratic polynomials so it has degree of precision 1 and  Composite Trapezoidal Rule[^2] fails to integrate a Cubic Polynomial so its degree of precision is 2.
@@ -66,7 +67,7 @@ Equation(2) :
 $$\int_{a}^{b}f(x)dx \approx \frac{(b-a)}{2n}\left[f(a)+f(b)+2\sum\limits_{k=1}^{n-1}f(a+kh)\right]$$ 
 
 <div class="divider"></div>
-## Examples :
+### Examples :
 **Example (1)**
 Let's take a very simple example , integrating $$f(x)= sin(x)$$ over interval [0,2] by partition into two uniform subinterval (n=2). <br />
 **Answer**
@@ -79,9 +80,9 @@ $$\int_{0}^{2} sin(x)dx \approx \frac{1}{2}\left[sin(0)+2 sin(1) + sin(2)\right]
 
 Now let's check that how much error is there ?: <br />
 <div class="isa_warning">
-Error = |Actual Integral Value - Integral Value by Trapezoidal Rule|</div>
+<h4>Error</h4> = |Actual Integral Value - Integral Value by Trapezoidal Rule|</div>
 <br />
-**Actual Integral Value** $$= \int_{0}^{2}sin(x)dx \\= [-cos(x)]_{0}^{2} \\= -cos(2)+cos(0) \\ \approx 1.4161$$(rounding off 4th digit)<br />
+**Actual Integral Value** $$= \int_{0}^{2}sin(x)dx \\= [-cos(x)]_{0}^{2} \\= -cos(2)+cos(0) \\ \approx 1.4161$$<br />(rounding off 4th digit)<br />
 
 **Error** $$ \approx |1.4161 - 1.2961| \\ = 0.12$$
 <br />
