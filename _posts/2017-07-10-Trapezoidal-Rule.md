@@ -80,9 +80,9 @@ $$\int_{0}^{2} sin(x)dx \approx \frac{1}{2}\left[sin(0)+2 sin(1) + sin(2)\right]
 
 Now let's check that how much error is there ?: <br />
 <div class="isa_warning">
-<h4>Error</h4> = |Actual Integral Value - Integral Value by Trapezoidal Rule|</div>
-<br />
-**Actual Integral Value** $$= \int_{0}^{2}sin(x)dx \\= [-cos(x)]_{0}^{2} \\= -cos(2)+cos(0) \\ \approx 1.4161$$<br />(rounding off 4th digit)<br />
+<h3>Error</h3> <br /> |Actual Integral Value - Integral Value by Trapezoidal Rule|</div>
+<br /><br />
+**Actual Integral Value** $$= \int_{0}^{2}sin(x)dx \\= [-cos(x)]_{0}^{2} \\= -cos(2)+cos(0) $$ $$ \approx 1.4161$$<br />(rounding off 4th digit)<br />
 
 **Error** $$ \approx |1.4161 - 1.2961| \\ = 0.12$$
 <br />

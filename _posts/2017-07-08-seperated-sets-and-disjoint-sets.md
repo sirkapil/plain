@@ -8,8 +8,15 @@ author: Kapil Chaudhary
 In this post,We shall discuss about an important topic of <a href="/tags#point+set+topology">point set topology</a> that is
 Seperated Sets and Disjoint Sets. <!--more-->
 <br />
-Seperated Sets: Let A and B be two non-empty sets,We say sets A and B are seperated if following two conditions holds :<br />
+
+<h1>Definitions :</h1>
+**Disjoint Sets**: Let A and B be two non-empty sets, We say $$A$$ and $$B$$ are disjoint if
+<br /><center>$$ A \cup B = \phi$$
+</center>
+
+**Seperated Sets**: Let $$A$$ and $$B$$ be two non-empty sets,We say sets $$A $$and$$ B$$ are seperated if following two conditions holds :<br />
 <center>$$ A \cap \overline{B} = \phi$$ 
-$$ B \cap \overline{A} = \phi$$</center>
+$$ \overline{A} \cap B = \phi$$
+</center>
 
 
