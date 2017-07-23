@@ -389,5 +389,7 @@ section {
 }
 .danger {
     background-color: #FFDDDD;
-    border-left: 6px solid #D8000C
+    border:{
+         left: 6px solid #D8000C;
+           }
 }
