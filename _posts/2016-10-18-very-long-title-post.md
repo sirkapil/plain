@@ -40,7 +40,7 @@ Let's say you have text that you want to refer with a footnote, you can do that 
 
 
 <div class="box">
-  <p><strong>Danger!</strong> Some text...</p>
+  <strong>Danger!</strong> Some text...
 </div>
 
 
