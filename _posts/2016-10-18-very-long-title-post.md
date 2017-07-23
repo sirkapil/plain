@@ -37,6 +37,13 @@ Let's say you have text that you want to refer with a footnote, you can do that 
 
 > Start by doing what's necessary; then do what's possible; and suddenly you are doing the impossible. --Francis of Assisi
 
+
+
+<div class="danger">
+  <p><strong>Danger!</strong> Some text...</p>
+</div>
+
+
 **NOTE:** This theme does NOT support nested blockquotes.
 
 <div class="divider"></div>
