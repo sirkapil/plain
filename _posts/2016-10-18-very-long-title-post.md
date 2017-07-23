@@ -39,15 +39,14 @@ Let's say you have text that you want to refer with a footnote, you can do that 
 
 
 
-<div class="box">
-  <strong>Danger!</strong> Some text...
-</div>
 
 
 **NOTE:** This theme does NOT support nested blockquotes.
 
 <div class="divider"></div>
-
+<div class="box">
+  Hi this is box.
+</div>
 ## List Items
 
 1. First order list item
