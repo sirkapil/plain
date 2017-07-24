@@ -52,7 +52,9 @@ Check this following image
 (Source- Wiki) showing how accuracy increase in answer while increasing _n_
 ![Effect of increasing n in composite Trapezoidal rule](//sirkapil.github.io/alpha/img/trapezium2.gif)
 
-<br /><div class="box1"><small>**Note:**
+<br />
+<div class="box1">
+<small>**Note:**
 However , it is also possible to do partition of [a,b] with irregular length.[^4]
 </small>
 </div>
