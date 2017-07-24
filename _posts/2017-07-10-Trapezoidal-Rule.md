@@ -54,10 +54,10 @@ Check this following image
 
 <br />
 <div class="box1">
-<small>**Note:**
-However , it is also possible to do partition of [a,b] with irregular length.[^4]
+<small><b>Note:</b><br /><center>
+However , it is also possible to do partition of [a,b] with irregular length.</center>
 </small>
-</div>
+</div>[^4]
 
 <div class="divider"></div>
 
@@ -79,7 +79,9 @@ Step Size (h) $$ =\frac{(b-a)}{n} \\ =\frac{(2-0)}{2} = 1$$
 
 Now Using Composite Trapezoidal Formulae ,
 
-$$\int_{0}^{2} sin(x)dx \approx \frac{1}{2}\left[sin(0)+2 sin(1) + sin(2)\right] \\ \approx 1.2961$$<p align="right"> (Rounding off 4th Digit)</p>
+$$\int_{0}^{2} sin(x)dx \approx \frac{1}{2}\left[sin(0)+2 sin(1) + sin(2)\right] \\ \approx 1.2961$$
+<p align="right"> (Rounding off 4th Digit)
+</p>
 
 Now let's check that how much error is there ?: <br />
 <div class="isa_warning">
@@ -93,7 +95,7 @@ Now let's check that how much error is there ?: <br />
 ![Uniform Grid Composite Trapezoidal Rule integrating sine function over 0 to 2](//sirkapil.github.io/alpha/img/IMG_20170720_180952.jpg)
 <div class="divider"></div>
 
-### Error Analysis[^error]
+### Error Analysis[^5]
 
 
 
@@ -110,6 +112,6 @@ Now let's check that how much error is there ?: <br />
 [^2]: Composite Trapezoidal Rule is much accurate than Simple Trapezoidal Rule.
 [^3]: that same length is named as _Step Size_ , denoted by _h_ and is always a positive number.
 [^4]: Link to Article [Trapezoidal Rule with non-uniform step size](/non-uniform-step-size-trapezoidal-rule)
-[^error]: As Thread is getting heavier (taking too time to render mathjax output) , so creating [new thread for error analysis](/error-analysis-trapezoidal)
+[^5]: As Thread is getting heavier (taking too time to render mathjax output) , so creating [new thread for error analysis](/error-analysis-trapezoidal)
 
 
