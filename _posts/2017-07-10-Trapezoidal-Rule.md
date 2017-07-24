@@ -54,7 +54,7 @@ Check this following image
 
 <br />
 <div class="box1">
-<small><b><p>Note:</p></b><br /><center>
+<small><b><p>Note:</p></b><center>
 <p>However , it is also possible to do partition of [a,b] with irregular length.</p></center>
 </small>
 </div>[^4]
