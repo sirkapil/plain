@@ -53,11 +53,11 @@ Check this following image
 ![Effect of increasing n in composite Trapezoidal rule](//sirkapil.github.io/alpha/img/trapezium2.gif)
 
 <br />
-<div class="box1">
-<small><b><p>Note:</p></b><center>
-<p>However , it is also possible to do partition of [a,b] with irregular length.</p></center>
+<div class="box4">
+<small><b><p><u>Note:</u></p></b><center>
+<p>However , it is also possible to do partition of [a,b] with irregular length.[^4]</p></center>
 </small>
-</div>[^4]
+</div>
 
 <div class="divider"></div>
 
@@ -84,8 +84,8 @@ $$\int_{0}^{2} sin(x)dx \approx \frac{1}{2}\left[sin(0)+2 sin(1) + sin(2)\right]
 </p>
 
 Now let's check that how much error is there ?: <br />
-<div class="isa_warning">
-<h5>Error</h5> <br /> |Actual Integral Value - Integral Value by Trapezoidal Rule|</div>
+<div class="isa_success">
+<b>Error</b> <br /> |Actual Integral Value - Integral Value by Trapezoidal Rule|</div>
 <br /><br />
 **Actual Integral Value** $$= \int_{0}^{2}sin(x)dx \\= [-cos(x)]_{0}^{2} \\= -cos(2)+cos(0) $$ $$ \approx 1.4161$$<br />(rounding off 4th digit)<br />
 
