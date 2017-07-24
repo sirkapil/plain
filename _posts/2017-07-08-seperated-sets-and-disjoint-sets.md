@@ -19,6 +19,13 @@ Seperated Sets and Disjoint Sets. <!--more-->
 i.e. both sets must have no common point. if both have any point common , we say sets are "_joint sets_".<br />
 **Examples :**
 
+|  $A$      |  $B$     | $A \cap B$ |   Joint/Disjoint |
+|-----------|:--------:|:-----------:|-----------------:|
+| $[0,1]$   | $(1,2)$  | $\phi$   | Disjoint       |
+
+
+
+
 
 <div class="box2">
 <p><b>Seperated Sets</b>: <br />Let $A$ and $B$ be two non-empty sets,We say sets $A$ and $B$ are seperated if following two conditions holds :<br />
