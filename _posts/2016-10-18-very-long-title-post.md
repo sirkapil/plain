@@ -7,7 +7,7 @@ updated: 2016-10-18 23:37
 
 
 <div class="box1"><h2><center>Note:
-</center></h2><p> ye mera text hai</p>
+</center></h2><p align="right"> ye mera text hai</p>
 </div>
 **NOTE:** This markdown cheatsheet is a typography demo for this theme. Check out this post to learn more about this markdown usage when you want to get started with this theme. Enjoy!
 
