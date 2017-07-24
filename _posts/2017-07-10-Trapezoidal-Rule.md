@@ -52,9 +52,10 @@ Check this following image
 (Source- Wiki) showing how accuracy increase in answer while increasing _n_
 ![Effect of increasing n in composite Trapezoidal rule](//sirkapil.github.io/alpha/img/trapezium2.gif)
 
-<br /><small>**Note:**
+<br /><div class="box1"><small>**Note:**
 However , it is also possible to do partition of [a,b] with irregular length.[^4]
 </small>
+</div>
 
 <div class="divider"></div>
 
@@ -67,7 +68,7 @@ Equation(2) :
 $$\int_{a}^{b}f(x)dx \approx \frac{(b-a)}{2n}\left[f(a)+f(b)+2\sum\limits_{k=1}^{n-1}f(a+kh)\right]$$ 
 
 <div class="divider"></div>
-### Examples :
+<h3>Examples :</h3>
 **Example (1)**
 Let's take a very simple example , integrating $$f(x)= sin(x)$$ over interval [0,2] by partition into two uniform subinterval (n=2). <br />
 **Answer**
@@ -76,7 +77,7 @@ Step Size (h) $$ =\frac{(b-a)}{n} \\ =\frac{(2-0)}{2} = 1$$
 
 Now Using Composite Trapezoidal Formulae ,
 
-$$\int_{0}^{2} sin(x)dx \approx \frac{1}{2}\left[sin(0)+2 sin(1) + sin(2)\right] \\ \approx 1.2961$$ (Rounding off 4th Digit)
+$$\int_{0}^{2} sin(x)dx \approx \frac{1}{2}\left[sin(0)+2 sin(1) + sin(2)\right] \\ \approx 1.2961$$<p align="right"> (Rounding off 4th Digit)</p>
 
 Now let's check that how much error is there ?: <br />
 <div class="isa_warning">
