@@ -6,7 +6,7 @@ updated: 2016-10-18 23:37
 
 
 
-<div class="box1"><b>Note:</b><br />this is my text</div><br />
+<div class="box1"><b><br />Note:</b><br />this is my text<br /></div><br />
 <div class="box2">this is my text</div>
 <div class="box3">this is my text</div>
 <div class="box4">this is my text</div>
