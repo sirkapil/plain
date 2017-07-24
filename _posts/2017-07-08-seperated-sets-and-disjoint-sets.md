@@ -11,11 +11,15 @@ Seperated Sets and Disjoint Sets. <!--more-->
 
 <h1>Definitions :</h1>
 <div class="divider"></div>
-<div class="box1">
+<div class="box2">
 <p><b>Disjoint Sets</b>: <br />Let $A$ and $B$ be two non-empty sets, We say $A$ and $B$ are disjoint if
 <br /><center>$$ A \cap B = \phi$$
 </center>
 </p></div>
+i.e. both sets must have no common point. if both have any point common , we say sets are "_joint sets_".<br />
+**Examples :**
+
+
 <div class="box2">
 <p><b>Seperated Sets</b>: <br />Let $A$ and $B$ be two non-empty sets,We say sets $A$ and $B$ are seperated if following two conditions holds :<br />
 <center>$$ A \cap \overline{B} = \phi$$ 
