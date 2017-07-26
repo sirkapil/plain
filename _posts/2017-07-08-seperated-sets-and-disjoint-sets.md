@@ -25,7 +25,7 @@ i.e. both sets must have no common point. if both have any point common , we say
 | $[0,1]$   | $[1,2)$  | ${1}$   | Joint set touching at point 1     |
 | $[0,1]$   | $(1,2)$  | $\phi$   | Disjoint       |
 | $[0,1]$   | $(-1,2)$  | $[0,1]$   | Joint $       |
-| $(a,b]$   | $(c,b]$  | $A$ if a<c $B$ if a>c  | joint       |
+| $(a,b]$   | $(c,b]$  | $A if a<c \\B if a>c$  | joint       |
 
 
 
