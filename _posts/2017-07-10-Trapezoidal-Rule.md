@@ -18,7 +18,7 @@ This Mehod is pretty accurate for evaluating approximate values of periodic func
 <div class="divider"></div>
 <h2> How it Works ? </h2>
 <h3>Simple Trapezoidal Rule:</h3>
-<a href="//sirkapil.github.io/alpha/img/IMG_20170720_181014.jpg" data-lightbox="simple-trapezoidal" data-title="in action">
+<a href="//sirkapil.github.io/alpha/img/IMG_20170720_181014.jpg" data-lightbox="simple-trapezoidal" data-title="in_action">
 <img src="//sirkapil.github.io/alpha/img/IMG_20170720_181014.jpg"></img>
 </a>
 <h3> Composite Trapezoidal Rule:</h3>
