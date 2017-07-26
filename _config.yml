@@ -19,8 +19,7 @@ mathjax:            true  # enables support for mathjax - set to false to disabl
 
 # LightBox
 
-lightboxjs: true
-lightboxcss: true
+lightbox: true
 
 # Site Build
 highlighter:        rouge
