@@ -18,9 +18,9 @@ This Mehod is pretty accurate for evaluating approximate values of periodic func
 <div class="divider"></div>
 <h2> How it Works ? </h2>
 <h3>Simple Trapezoidal Rule:</h3>
-
+<a href="//sirkapil.github.io/alpha/img/IMG_20170720_181014.jpg" data-lightbox="simple-trapezoidal" data-title="in action">
 ![simple Trapezoidal rule](//sirkapil.github.io/alpha/img/IMG_20170720_181014.jpg)
-
+</a>
 <h3> Composite Trapezoidal Rule:</h3>
 First , We do create partition for [a,b] where a and b are lower and upper limit of integral respectively.
 In Regular Grids or Uniform Partition, [a,b] interval is distributed into $$n$$ subintervals of same length[^3].
