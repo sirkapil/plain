@@ -24,8 +24,8 @@ i.e. both sets must have no common point. if both have any point common , we say
 | $[0,1]$   | $(1,2)$  | $\phi$   | Disjoint       |
 | $[0,1]$   | $[1,2)$  | ${1}$   | Joint set,touching at 1     |
 | $[0,1]$   | $(1,2)$  | $\phi$   | Disjoint       |
-| $[0,1]$   | $(-1,2)$  | $[0,1]$   | Joint $       |
-| $(a,b]$   | $(c,b]$  | $$A$$ if $a<c$ $$\\ B$$ if $a>c$  | joint       |
+| $[0,1]$   | $(-1,2)$  | $[0,1]$   | Joint        |
+| $(a,b]$   | $(c,b]$  | $$B$$ if $a<c$ $$\\A$$ if $a>c$  | joint       |
 
 
 
