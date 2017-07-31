@@ -41,13 +41,7 @@ $$\int \frac{-y}{\sqrt{1 + y^2}}dy.     \cdots  eq(1)$$
 assuming $1+y^2 = t$ then we'll have $$2y dy = dt \\  ydy = \frac{dt}{2}$$
 putting value of $ydy$ into equation (1) ,we have
 
-$$ =\int \frac{-dt}{\sqrt{t}}$$
-
-$$ =\int -t^{-1/2} dt $$
-
-$$=  -\frac{t^{1/2}}{\frac{1}{2}} $$
-
-$$= -2 \sqrt{t} $$
+$$ =\int \frac{-dt}{\sqrt{t}} \\ =\int -t^{-1/2} dt \\ =  -\frac{t^{1/2}}{\frac{1}{2}} \\ = -2 \sqrt{t} $$
 
 Replacing $t$ by $1+y^2$ , we have
 
@@ -55,8 +49,12 @@ $$= -2 \sqrt{1+y^2}$$
 
 <b>Solving RHS integral :</b> 
 
-$$= \int \frac{\sqrt{1+ x^2}}{x}dx$$
+$$= \int \frac{\sqrt{1+ x^2}}{x}dx  \cdots eq(2)$$
 
+Let $\sqrt{1+x^2} = u $ then $ \frac{x}{\sqrt{1+x^2}dx = du \\ dx = \frac{\sqrt{1+x^2}}{x}du $ 
+putting values of $dx$ and $u$ into equation (2) we have
+
+$$ \int \frac{u^2}{u^2 -1} $$
 
 <hr />
 ## Answer 2
