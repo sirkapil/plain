@@ -19,13 +19,17 @@ taking $1+x^2$ common from $(1+ x^2) + y^2(1 + x^2)$
 $$ \sqrt{(1+ x^2) (1 + y^2)} dx + (x y) dy = 0 $$
 
 $$= \sqrt{1+ x^2} \sqrt{1 + y^2} dx + (x y) dy = 0 $$
+
 or it can be written as
+
 $$-(x y) dy = \sqrt{1+ x^2} \sqrt{1 + y^2} dx$$
 
 $$= \frac{-y}{\sqrt{1 + y^2}}dy = \frac{\sqrt{1+ x^2}}{x}dx$$
 
 We have reduced the original differential equation into a variable separable equation and it can be easily solved by integrating both sides.  
+
 $$\int \frac{-y}{\sqrt{1 + y^2}}dy = \int \frac{\sqrt{1+ x^2}}{x}dx$$
+
 <hr />
 ## Answer 2
 Given Differential equation is :
