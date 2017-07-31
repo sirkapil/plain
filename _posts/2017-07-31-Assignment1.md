@@ -45,7 +45,7 @@ $$ =\int \frac{-dt}{\sqrt{t}} \\ =\int -t^{-1/2} dt \\=  -[\frac{t^{1/2}{1/2}] \
 
 Replacing $t$ by $1+y^2$ , we have
 
-$$= -2 \sqrt{1+y^2}
+$$= -2 \sqrt{1+y^2}$$
 
 <b>Solving RHS integral :</b> 
 
