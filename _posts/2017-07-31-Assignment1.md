@@ -85,7 +85,7 @@ Given Differential equation is :
 
 $$\frac{dy}{dx} = sin(x+2y) + cos(x+2y$$
 
-Substituting $x +2y = u$ , we have $$1 + 2\frac{dy}{dx} =\frac{du}{dx} \\ \frac{dy}{dx} = \left\frac{1}{2}[frac{du}{dx}-1 \right]$$
+Substituting $x +2y = u$ , we have $$1 + 2\frac{dy}{dx} =\frac{du}{dx} \\ \frac{dy}{dx} = \frac{1}{2}\left[frac{du}{dx}-1 \right]$$
 
 <hr />
 ## Solution 3
