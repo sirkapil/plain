@@ -8,14 +8,15 @@ author: Kapil Chaudhary
 ## Answer 1
 Given Differential equation is :
 
-$$ \sqrt{(1+ x^2 + y^2 + x^2 y^2)} dx + x y dy = 0 $$
+$$ \sqrt{(1+ x^2 + y^2 + x^2 y^2)} dx + (x y) dy = 0 $$
 
-$\iff$  $$\sqrt{(1+ x^2) + y^2(1 + x^2)} dx + xy dy = 0 $$
+$$\sqrt{(1+ x^2) + y^2(1 + x^2)} dx + (xy) dy = 0 $$
 
-$\iff$  $$\sqrt{(1+ x^2) (1 + y^2)} dx + x y dy = 0 $$
+$$\sqrt{(1+ x^2) (1 + y^2)} dx + (x y) dy = 0 $$
 
+$$\sqrt{1+ x^2} \sqrt{1 + y^2} dx + (x y) dy = 0 $$
 
-
+$$x y dy = - \sqrt{1+ x^2} \sqrt{1 + y^2} dx$$
 
 <hr />
 ## Answer 2
