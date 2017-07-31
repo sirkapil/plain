@@ -5,7 +5,7 @@ author: Kapil Chaudhary
 ---
 ![Assignment - questions](//sirkapil.github.io/alpha/img/assignment1.jpg)
 
-## Answer 1
+## Solution 1
 Given Differential equation is :
 
 $$ \sqrt{(1+ x^2 + y^2 + x^2 y^2)} dx + (x y) dy = 0 $$
@@ -68,7 +68,7 @@ where C is arbitrary constant.
 
 <div class="box1">
 <p>
-<b>Answer</b><br />
+<b>Answer 1</b><br />
 
 $$2 \sqrt{1+y^2} + \sqrt{x^2 +1} + \frac{1}{2} \ln\left(\frac{\sqrt{x^2 +1}-1}{\sqrt{x^2 +1}+1} \right) = C $$
 
@@ -79,39 +79,41 @@ where C is arbitrary constant.
 
 
 <hr />
-## Answer 2
+
+## Solution 2
 Given Differential equation is :
 
 
+
 <hr />
-## Answer 3
+## Solution 3
 Given Differential equation is :
 
 <hr />
-## Answer 4
+## Solution 4
 Given Differential equation is :
 
 <hr />
-## Answer 5
+## Solution 5
 Given Differential equation is :
 
 <hr />
-## Answer 6
+## Solution 6
 Given Differential equation is :
 
 <hr />
-## Answer 7
+## Solution 7
 Given Differential equation is :
 
 <hr />
-## Answer 8
+## Solution 8
 Given Differential equation is :
 
 <hr />
-## Answer 9
+## Solution 9
 Given Differential equation is :
 
 <hr />
-## Answer 10
+## Solution 10
 Given Differential equation is :
 
