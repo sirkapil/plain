@@ -34,14 +34,22 @@ $$\int \frac{-y}{\sqrt{1 + y^2}}dy = \int \frac{\sqrt{1+ x^2}}{x}dx$$
 
 As we are using indefinite integral , so we need to introduce an arbitrary constant but for smooth calculations ,I'll introduce it directly in my answer.
 
-<b>Solving LHS :</b>
+<b>Solving LHS integral:</b>
 
-$$\int \frac{-y}{\sqrt{1 + y^2}}dy$$ 
+$$\int \frac{-y}{\sqrt{1 + y^2}}dy$$ --- Eq(1)
 
-assuming $1+y^2 = t$ then we'll have $2y dy = dt \\ or ydy = \frac{dt}{2}$ 
+assuming $1+y^2 = t$ then we'll have $$2y dy = dt \\  ydy = \frac{dt}{2}$$
 putting value of $ydy$ into equation (1) ,we have
 
-$$ \int \frac{-dt}{\sqrt{t}} \\ \int -t^{-1/2} dt$$
+$$ =\int \frac{-dt}{\sqrt{t}} \\ =\int -t^{-1/2} dt \\=  -[\frac{t^{1/2}{1/2}] \\= -2 \sqrt{t}$$
+
+Replacing $t$ by $1+y^2$ , we have
+
+$$= -2 \sqrt{1+y^2}
+
+<b>Solving RHS integral :</b> 
+
+$$= \int \frac{\sqrt{1+ x^2}}{x}dx$$
 
 
 <hr />
