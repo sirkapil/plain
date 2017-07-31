@@ -51,7 +51,7 @@ $$= -2 \sqrt{1+y^2}$$
 
 $$= \int \frac{\sqrt{1+ x^2}}{x}dx  \cdots eq(2)$$
 
-Let $\sqrt{1+x^2} = u $ then $ \frac{x}{\sqrt{1+x^2}dx = du \\ dx = \frac{\sqrt{1+x^2}}{x}du $ 
+Let $\sqrt{1+x^2} = u $ then $ \frac{x}{\sqrt{1+x^2}}dx = du \\ dx = \frac{\sqrt{1+x^2}}{x}du $ 
 putting values of $dx$ and $u$ into equation (2) we have
 
 $$ \int \frac{u^2}{u^2 -1} $$
