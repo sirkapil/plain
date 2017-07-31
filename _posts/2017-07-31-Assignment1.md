@@ -83,7 +83,7 @@ where C is arbitrary constant.
 ## Solution 2
 Given Differential equation is :
 
-$$\frac{dy}{dx} = sin(x+2y) + cos(x+2y$$
+$$\frac{dy}{dx} = sin(x+2y) + cos(x+2y)$$
 
 Substituting $x +2y = u$ , we have $$1 + 2\frac{dy}{dx} =\frac{du}{dx} \\ \frac{dy}{dx} = \frac{1}{2}\left[\frac{du}{dx}-1 \right]$$
 
@@ -91,7 +91,16 @@ After substituting values of $x+2y$ and  $\frac{dy}{dx}$, We have
 
 $$ \frac{1}{2}\left[\frac{du}{dx}-1 \right] = sin(u) + cos(u)$$
 
-$$ \frac{du}{dx}-1 = 2\left[sin(u) +cos(u)\right] \\ \frac{du}{dx} = 2\left[sin(u) +cos(u)\right]+1$$
+$$ \frac{du}{dx}-1 = 2\left[sin(u) +cos(u)\right] \\ \frac{du}{dx} = 2sin(u) +2cos(u)+1 \\ \frac{du}{2sin(u) +2cos(u)+1} = dx$$
+
+We have transformed the differentia equation into _variable separable form_, it can be easily solved by integrating both sides.
+
+$$ \int \frac{1}{2sin(u) +2cos(u)+1}du = \int dx \\ \int \frac{1}{2sin(u) +2cos(u)+1}du = x + C$$
+
+where C is arbitrary constant.
+
+
+
 
 
 
@@ -120,7 +129,7 @@ Given Differential equation is :
 Given Differential equation is :
 
 <hr />
-## Solution 9
+## Solutiyon 9
 Given Differential equation is :
 
 <hr />
