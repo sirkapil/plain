@@ -87,11 +87,11 @@ $$\frac{dy}{dx} = sin(x+2y) + cos(x+2y$$
 
 Substituting $x +2y = u$ , we have $$1 + 2\frac{dy}{dx} =\frac{du}{dx} \\ \frac{dy}{dx} = \frac{1}{2}\left[\frac{du}{dx}-1 \right]$$
 
-After substituting values of $x+2y$ and  $\frac{dy}{dx}, We have
+After substituting values of $x+2y$ and  $\frac{dy}{dx}$, We have
 
 $$ \frac{1}{2}\left[\frac{du}{dx}-1 \right] = sin(u) + cos(u)$$
 
-$$ \frac{du}{dx}-1 = 2\left[sin(u) +cos(u)]$$
+$$ \frac{du}{dx}-1 = 2\left[sin(u) +cos(u)\right] \\ \frac{du}{dx} = 2\left[sin(u) +cos(u)\right]+1$$
 
 
 
