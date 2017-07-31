@@ -66,11 +66,11 @@ $$C -2 \sqrt{1+y^2} = \sqrt{x^2 +1} + \frac{1}{2} \ln\left(\frac{\sqrt{x^2 +1}-1
 
 where C is arbitrary constant.
 
-<div class="box1>
+<div class="box1">
 <p>
 <b>Answer</b><br />
 
-$$C = 2 \sqrt{1+y^2} + \sqrt{x^2 +1} + \frac{1}{2} \ln\left(\frac{\sqrt{x^2 +1}-1}{\sqrt{x^2 +1}+1} \right)$$
+$$2 \sqrt{1+y^2} + \sqrt{x^2 +1} + \frac{1}{2} \ln\left(\frac{\sqrt{x^2 +1}-1}{\sqrt{x^2 +1}+1} \right) = C $$
 
 where C is arbitrary constant.
 
