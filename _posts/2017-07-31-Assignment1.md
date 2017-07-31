@@ -24,11 +24,25 @@ or it can be written as
 
 $$-(x y) dy = \sqrt{1+ x^2} \sqrt{1 + y^2} dx$$
 
-$$= \frac{-y}{\sqrt{1 + y^2}}dy = \frac{\sqrt{1+ x^2}}{x}dx$$
+or it can be written as
+
+$$ \frac{-y}{\sqrt{1 + y^2}}dy = \frac{\sqrt{1+ x^2}}{x}dx$$
 
 We have reduced the original differential equation into a variable separable equation and it can be easily solved by integrating both sides.  
 
 $$\int \frac{-y}{\sqrt{1 + y^2}}dy = \int \frac{\sqrt{1+ x^2}}{x}dx$$
+
+As we are using indefinite integral , so we need to introduce an arbitrary constant but for smooth calculations ,I'll introduce it directly in my answer.
+
+<b>Solving LHS :</b>
+
+$$\int \frac{-y}{\sqrt{1 + y^2}}dy$$ 
+
+assuming $1+y^2 = t$ then we'll have $2y dy = dt \\ or ydy = \frac{dt}{2}$ 
+putting value of $ydy$ into equation (1) ,we have
+
+$$ \int \frac{-dt}{\sqrt{t}} \\ \int -t^{-1/2} dt$$
+
 
 <hr />
 ## Answer 2
