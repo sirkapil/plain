@@ -36,7 +36,7 @@ As we are using indefinite integral , so we need to introduce an arbitrary const
 
 <b>Solving LHS integral:</b>
 
-$$\int \frac{-y}{\sqrt{1 + y^2}}dy$$      - - - Eq(1)
+$$\int \frac{-y}{\sqrt{1 + y^2}}dy.     \cdots  eq(1)$$     
 
 assuming $1+y^2 = t$ then we'll have $$2y dy = dt \\  ydy = \frac{dt}{2}$$
 putting value of $ydy$ into equation (1) ,we have
@@ -45,7 +45,7 @@ $$ =\int \frac{-dt}{\sqrt{t}}$$
 
 $$ =\int -t^{-1/2} dt $$
 
-$$=  -[\frac{t^{1/2}}{1/2}] $$
+$$=  -\frac{t^{1/2}}{\frac{1}{2}} $$
 
 $$= -2 \sqrt{t} $$
 
