@@ -8,15 +8,19 @@ author: Kapil Chaudhary
 ## Answer 1
 Given Differential equation is :
 
-$$ \sqrt{(1+ x^2 + y^2 + x^2 y^2)} dx + (x y) dy = 0 $$
+$$= \sqrt{(1+ x^2 + y^2 + x^2 y^2)} dx + (x y) dy = 0 $$
 
-$$\sqrt{(1+ x^2) + y^2(1 + x^2)} dx + (xy) dy = 0 $$
+$$= \sqrt{(1+ x^2) + y^2(1 + x^2)} dx + (xy) dy = 0 $$
 
-$$\sqrt{(1+ x^2) (1 + y^2)} dx + (x y) dy = 0 $$
+$$= \sqrt{(1+ x^2) (1 + y^2)} dx + (x y) dy = 0 $$
 
-$$\sqrt{1+ x^2} \sqrt{1 + y^2} dx + (x y) dy = 0 $$
+$$= \sqrt{1+ x^2} \sqrt{1 + y^2} dx + (x y) dy = 0 $$
 
-$$x y dy = - \sqrt{1+ x^2} \sqrt{1 + y^2} dx$$
+$$-(x y) dy = \sqrt{1+ x^2} \sqrt{1 + y^2} dx$$
+
+$$ \frac{-y dy}{\sqrt{1 + y^2}} = \frac{\sqrt{1+ x^2}dx}{x}$$
+
+We have reduced the original differential equation into a variable separable equation and it can be easily solved by integrating both sides.  
 
 <hr />
 ## Answer 2
