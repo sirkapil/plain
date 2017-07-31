@@ -60,6 +60,24 @@ Replacing $u$ by $\sqrt{x^2 +1}$, we have
 
 $$= \sqrt{x^2 +1} + \frac{1}{2} \ln\left(\frac{\sqrt{x^2 +1}-1}{\sqrt{x^2 +1}+1} \right)$$
 
+Hence , our solution to differential equation is :
+
+$$C -2 \sqrt{1+y^2} = \sqrt{x^2 +1} + \frac{1}{2} \ln\left(\frac{\sqrt{x^2 +1}-1}{\sqrt{x^2 +1}+1} \right)$$
+
+where C is arbitrary constant.
+
+<div class="box1>
+<p>
+<b>Answer</b><br />
+
+$$C = 2 \sqrt{1+y^2} + \sqrt{x^2 +1} + \frac{1}{2} \ln\left(\frac{\sqrt{x^2 +1}-1}{\sqrt{x^2 +1}+1} \right)$$
+
+where C is arbitrary constant.
+
+</p>
+</div>
+
+
 <hr />
 ## Answer 2
 Given Differential equation is :
