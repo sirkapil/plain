@@ -97,7 +97,7 @@ We have transformed the differentia equation into _variable separable form_, it 
 
 $$ \int \frac{1}{2sin(u) +2cos(u)+1}du = \int dx \\ \int \frac{1}{2sin(u) +2cos(u)+1}du = x + C$$
 
-where C is arbitrary constant.
+where $C$ is arbitrary constant.
 
 
 
@@ -134,7 +134,8 @@ $$\int \frac{v + v^2}{1- v^2}dv = \int \frac{dx}{x}$$
 
 Applying linearity:
 
-$$\int \left[\frac{v}{1- v^2}+ frac{v^2}{1- v^2}\right]dv = \ln(x) + C$$
+$$\ln(x) + C =\int \left[\frac{v}{1- v^2}+ \frac{v^2}{1- v^2}\right]dv \\ \int \left[\frac{v}{1- v^2}\right]dv + \int \left[\frac{v^2}{1- v^2}\right]dv$$
+
 
 
 
