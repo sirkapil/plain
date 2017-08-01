@@ -192,6 +192,14 @@ or it can be written as
 
 $$ \frac{dy}{dx} = \frac{-3y+7x-7}{7y-3x+3} \\ = \frac{-3y+7(x-1)}{7y-3(x-1)}$$
 
+Let us assume $x-1 =t$ , then$ dx = dt$ ,putting these in above equation. We have,
+
+$$ \frac{dy}{dt} = \frac{-3y+7t}{7y-3t}$$
+
+Clearly,This is an homogenous differential equation and it can be easily solved by substituting $y= vt$ and $\frac{dy}{dt} = v + t \frac{dv}{dt}$.
+
+$$\therefore v + t \frac{dv}{dt} = \frac{-3(vt)+7t}{7(vt)-3t}$$
+
 <hr />
 ## Solution 5
 Given Differential equation is :
