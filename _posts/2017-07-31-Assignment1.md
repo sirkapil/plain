@@ -121,6 +121,23 @@ Putting values of $y$ and $\frac{dy}{dx}$ , we get
 
 $$ v + x \frac{dv}{dx} = \frac{x^3 + (vx)^{3}}{x^2 (vx) + x (vx)^{2}} \\ = \frac{x^3 (1+ v^{3})}{x^3 ( v+ v^2)} \\ = \frac{1+ v^{3}}{ v+ v^2}$$
 
+$$ x \frac{dv}{dx} = \frac{1+ v^{3}}{ v+ v^2} -v \\= \frac{1+ v^3 - v^2 -v^3}{ v+ v^2} \\=  \frac{1 - v^2}{ v+ v^2}$$
+
+or it can be written as
+
+
+$$\frac{v + v^2}{1- v^2}dv = \frac{dx}{x}$$
+
+Clearly, it is a variable separable form , so it can be solved by integrating both sides.
+
+$$\int \frac{v + v^2}{1- v^2}dv = \int \frac{dx}{x}$$
+
+Applying linearity:
+
+$$\int \left[\frac{v}{1- v^2}+ frac{v^2}{1- v^2}\right]dv = \ln(x) + C$$
+
+
+
 <hr />
 ## Solution 4
 Given Differential equation is :
