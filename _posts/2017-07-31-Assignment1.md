@@ -38,7 +38,7 @@ As we are using indefinite integral , so we need to introduce an arbitrary const
 
 $$\int \frac{-y}{\sqrt{1 + y^2}}dy.     \cdots  eq(1)$$     
 
-assuming $1+y^2 = t$ then we'll have $$2y dy = dt \\  ydy = \frac{dt}{2}$$
+assuming $1+y^2 = t$ then we'll have $$2y dy = dt \\  ydy = \frac{dt}{2}$$ <br />
 putting value of $ydy$ into equation (1) ,we have
 
 $$ =\int \frac{-dt}{\sqrt{t}} \\ =\int -t^{-1/2} dt \\ =  -\frac{t^{1/2}}{\frac{1}{2}} \\ = -2 \sqrt{t} $$
@@ -51,7 +51,7 @@ $$= -2 \sqrt{1+y^2}$$
 
 $$= \int \frac{\sqrt{1+ x^2}}{x}dx  \cdots eq(2)$$
 
-Let $\sqrt{1+x^2} = u $ then $$ \frac{x}{\sqrt{1+x^2}}dx = du , \\ dx = \frac{\sqrt{1+x^2}}{x}du $$ 
+Let $\sqrt{1+x^2} = u $ then $$ \frac{x}{\sqrt{1+x^2}}dx = du , \\ dx = \frac{\sqrt{1+x^2}}{x}du $$ <br />
 putting values of $dx$ and $u$ into equation (2) we have
 
 $$= \int \frac{u^2}{u^2 -1}du \\ =\int (1+ \frac{1}{u^2 -1}) du \\ = u + \int \frac{1}{(u-1)(u+1)}du \\= u + \int \frac{1}{2}\left[\frac{1}{u-1}-\frac{1}{u+1}\right]du \\= u + \frac{1}{2}\left[\ln(u-1)-\ln(u+1) \right] \\= u + \frac{1}{2} \ln\left(\frac{u-1}{u+1} \right)$$
@@ -64,7 +64,7 @@ Hence , our solution to differential equation is :
 
 $$C -2 \sqrt{1+y^2} = \sqrt{x^2 +1} + \frac{1}{2} \ln\left(\frac{\sqrt{x^2 +1}-1}{\sqrt{x^2 +1}+1} \right)$$
 
-where C is arbitrary constant.
+where $C$ is arbitrary constant.
 
 <div class="box1">
 <p>
@@ -72,7 +72,7 @@ where C is arbitrary constant.
 
 $$2 \sqrt{1+y^2} + \sqrt{x^2 +1} + \frac{1}{2} \ln\left(\frac{\sqrt{x^2 +1}-1}{\sqrt{x^2 +1}+1} \right) = C $$
 
-where C is arbitrary constant.
+where $C$ is arbitrary constant.
 
 </p>
 </div>
@@ -107,6 +107,19 @@ where C is arbitrary constant.
 <hr />
 ## Solution 3
 Given Differential equation is :
+
+$$(x^3 + y^3)dx - (x^2 y + x y^2)dy =0$$
+
+or it can be written as 
+
+$$ \frac{dy}{dx} = \frac{(x^3 + y^3)}{(x^2 y + x y^2)} $$
+
+This is homogeneous differential equational and it can be easily solved by substituting 
+$$y = vx$$ then <br />
+$$\frac{dy}{dx} = v + x \frac{dv}{dx}$$ <br />
+Putting values of $y$ and $\frac{dy}{dx}$ , we get
+
+$$ v + x \frac{dv}{dx} = \frac{x^3 + (vx)^{3}}{x^2 vx + x (vx)^{2}} $$
 
 <hr />
 ## Solution 4
