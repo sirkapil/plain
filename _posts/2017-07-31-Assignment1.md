@@ -198,13 +198,19 @@ $$ \frac{dy}{dt} = \frac{-3y+7t}{7y-3t}$$
 
 Clearly,This is an homogenous differential equation and it can be easily solved by substituting $y= vt$ \then $\frac{dy}{dt} = v + t \frac{dv}{dt}$.
 
-$$\therefore  v + t \frac{dv}{dt} = \frac{-3(vt)+7t}{7(vt)-3t} \\ = \frac{-3v+7}{7v-3} \\ t \frac{dv}{dt} =\left(\frac{-3v+7}{7v-3}\right)-v \\ =\frac{-3v+7-7v^2+3v}{7v-3} \\ =\frac{7(1-v^2)}{7v-3}$$
+$$\therefore  v + t \frac{dv}{dt} = \frac{-3(vt)+7t}{7(vt)-3t} \\ = \frac{-3v+7}{7v-3} \\ \then t \frac{dv}{dt} =\left(\frac{-3v+7}{7v-3}\right)-v \\ =\frac{-3v+7-7v^2+3v}{7v-3} \\ =\frac{7(1-v^2)}{7v-3}$$
 
 Or it can be written as
 
+$$\frac{dt}{t} =\left[\frac{7v-3}{7(1-v^2)}\right]dv$$
 
+It is now changed into variable separable form and it is solved by integrating both sides.
 
+$$\int \frac{dt}{t} =\int \left[\frac{7v-3}{7(1-v^2)}\right]dv$$
 
+Applying linearity
+
+$$\ln(Ct) =\int \left[\frac{7v}{7(1-v^2)}\right]dv - \int \left[\frac{3}{7(1-v^2)}\right]dv$$
 
 <hr />
 ## Solution 5
