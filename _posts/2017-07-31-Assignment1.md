@@ -160,11 +160,11 @@ $$ = -v + \frac{1}{2}\left[\ln\left(\frac{v+1}{v-1}\right)\right]$$
 
 Now, solution to variable separable form is 
 
-$$ \ln(x)+ C = \frac{-1}{2}ln(1-v^2) -v + \frac{1}{2}\left[\ln\left(\frac{v+1}{v-1}\right)\right]$$
+$$ \ln|x|+ C = \frac{-1}{2}ln|1-v^2| -v + \frac{1}{2}\left[\ln\left(\frac{|v+1|}{|v-1|}\right)\right]$$
 
 As we have earlier substuited $y=vx$ , that means $v =\frac{y}{x}$..substituting value of $v$ in above equation. 
 
-$$ \ln(x)+ C = \frac{-1}{2}\ln\left(1-\left(\frac{y}{x}\right)^2\right) -\left(\frac{y}{x}\right) + \frac{1}{2}\left[\ln\left(\frac{\frac{y}{x}+1}{\frac{y}{x}-1}\right)\right]$$
+$$ \ln|x|+ C = \frac{-1}{2}\ln\left(|1-\left(\frac{y}{x}|\right)^2\right) -\left(\frac{y}{x}\right) + \frac{1}{2}\left[\ln\left(|\frac{\frac{y}{x}+1}{\frac{y}{x}-1}|\right)\right]$$
 
 
 $$ \ln(x)+ C = \frac{-1}{2}\ln\left(\frac{x^2 -y^2}{x^2}\right) -\left(\frac{y}{x}\right) + \frac{1}{2}\left[\ln\left(\frac{y+x}{y-x}\right)\right]$$
@@ -198,7 +198,7 @@ $$ \frac{dy}{dt} = \frac{-3y+7t}{7y-3t}$$
 
 Clearly,This is an homogenous differential equation and it can be easily solved by substituting $y= vt$ \then $\frac{dy}{dt} = v + t \frac{dv}{dt}$.
 
-$$\therefore  v + t \frac{dv}{dt} = \frac{-3(vt)+7t}{7(vt)-3t} \\ = \frac{-3v+7}{7v-3} \\ \if t \frac{dv}{dt} =\left(\frac{-3v+7}{7v-3}\right)-v \\ =\frac{-3v+7-7v^2+3v}{7v-3} \\ =\frac{7(1-v^2)}{7v-3}$$
+$$\therefore  v + t \frac{dv}{dt} = \frac{-3(vt)+7t}{7(vt)-3t} \\ = \frac{-3v+7}{7v-3} \\ \iff t \frac{dv}{dt} =\left(\frac{-3v+7}{7v-3}\right)-v \\ =\frac{-3v+7-7v^2+3v}{7v-3} \\ =\frac{7(1-v^2)}{7v-3}$$
 
 Or it can be written as
 
@@ -212,7 +212,11 @@ $$\int \frac{dt}{t} =\int \left[\frac{7v-3}{7(1-v^2)}\right]dv$$
 
 $$\ln(Ct) =\int \left[\frac{7v}{7(1-v^2)}\right]dv - \int \left[\frac{3}{7(1-v^2)}\right]dv$$
 
-where $C$ is arbitrary integration constant.
+<p align="right">where $C$ is arbitrary integration constant.</p>
+
+$$\ln(Ct) = \int \frac{1}{-2}\left[\frac{-2v}{1-v^2}\right]dv - \int \frac{3}{7}\left[\frac{1}{1-v^2}\right]dv$$
+
+$$\ln(Ct) =  \frac{-1}{2}\left[\ln|1-v^2|\right] -\frac{3}{14}\ln\left(\frac{|v+1|}{|v-1|}\right)$$
 
 <hr />
 ## Solution 5
