@@ -178,7 +178,7 @@ $$ \frac{-1}{2}\ln\left(\frac{x^2 -y^2}{x^2}\right) -\left(\frac{y}{x}\right) + 
 
 where $C$ is arbitrary constant.
 
-
+</p>
 </div>
 
 
