@@ -134,8 +134,17 @@ $$\int \frac{v + v^2}{1- v^2}dv = \int \frac{dx}{x}$$
 
 Applying linearity:
 
-$$\ln(x) + C =\int \left[\frac{v}{1- v^2}+ \frac{v^2}{1- v^2}\right]dv \\ \int \left[\frac{v}{1- v^2}\right]dv + \int \left[\frac{v^2}{1- v^2}\right]dv$$
+$$\ln(x) + C =\int \left[\frac{v}{1- v^2}+ \frac{v^2}{1- v^2}\right]dv \\ = \int \left[\frac{v}{1- v^2}\right]dv + \int \left[\frac{v^2}{1- v^2}\right]dv$$
 
+Let's name first integral as $I_1$ , second integral as $I_2$
+
+$$I_1 = \int \left[\frac{v}{1- v^2}\right]dv$$
+
+put $1-v^2 = t$ that means<br />$-2vdv =dt \\ or vdv = \frac{-dt}{2}$
+
+We have ,
+
+$$I_1 = \int \left[\frac{-1}{2t}\right]dt \\ \frac{-1}{2}ln(t) \\ \frac{-1}{2}ln(1-v^2)$$
 
 
 
