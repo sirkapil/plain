@@ -186,6 +186,12 @@ where $C$ is arbitrary constant.
 ## Solution 4
 Given Differential equation is :
 
+$$(3y-7x+7)dx + (7y-3x+3)dy = 0$$
+
+or it can be written as 
+
+$$ \frac{dy}{dx} = \frac{-3y+7x-7}{7y-3x+3} \\ = \frac{-3y+7(x-1)}{7y-3(x-1)}$$
+
 <hr />
 ## Solution 5
 Given Differential equation is :
