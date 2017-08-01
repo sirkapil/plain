@@ -119,7 +119,7 @@ $$y = vx$$ then <br />
 $$\frac{dy}{dx} = v + x \frac{dv}{dx}$$ <br />
 Putting values of $y$ and $\frac{dy}{dx}$ , we get
 
-$$ v + x \frac{dv}{dx} = \frac{x^3 + (vx)^{3}}{x^2 vx + x (vx)^{2}} $$
+$$ v + x \frac{dv}{dx} = \frac{x^3 + (vx)^{3}}{x^2 (vx) + x (vx)^{2}} \\ = \frac{x^3 (1+ v^{3})}{x^3 ( v+ v^2)} \\ = \frac{1+ v^{3}}{ v+ v^2}$$
 
 <hr />
 ## Solution 4
