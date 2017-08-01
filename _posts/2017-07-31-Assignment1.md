@@ -169,6 +169,17 @@ $$ \ln(x)+ C = \frac{-1}{2}\ln\left(1-\left(\frac{y}{x}\right)^2\right) -\left(\
 
 $$ \ln(x)+ C = \frac{-1}{2}\ln\left(\frac{x^2 -y^2}{x^2}\right) -\left(\frac{y}{x}\right) + \frac{1}{2}\left[\ln\left(\frac{y+x}{y-x}\right)\right]$$
 
+Hence , our final answer is :
+<div class="box1">
+<p>
+<b>Answer 3</b><br />
+
+$$ \frac{-1}{2}\ln\left(\frac{x^2 -y^2}{x^2}\right) -\left(\frac{y}{x}\right) + \frac{1}{2}\left[\ln\left(\frac{y+x}{y-x}\right)\right] -\ln(x) = C$$
+
+where $C$ is arbitrary constant.
+
+
+</div>
 
 
 <hr />
