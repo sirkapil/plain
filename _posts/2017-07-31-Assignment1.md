@@ -132,7 +132,8 @@ Clearly, it is a variable separable form , so it can be solved by integrating bo
 
 $$\int \frac{v + v^2}{1- v^2}dv = \int \frac{dx}{x}$$
 
-Applying linearity:
+<center>Applying linearity:
+</center>
 
 $$\ln(x) + C =\int \left[\frac{v}{1- v^2}+ \frac{v^2}{1- v^2}\right]dv \\ = \int \left[\frac{v}{1- v^2}\right]dv + \int \left[\frac{v^2}{1- v^2}\right]dv$$
 
@@ -148,13 +149,23 @@ $$I_1 = \int \left[\frac{-1}{2t}\right]dt \\ =\frac{-1}{2}[ln (t)] \\ =\frac{-1}
 
 Now, Second Integral 
 
-$$I_2 = \int \left[\frac{v^2}{1- v^2}\right]dv \\ \int \left[\frac{(v^2 -1)+1}{1- v^2}\right]dv $$
+$$I_2 = \int \left[\frac{v^2}{1- v^2}\right]dv \\= \int \left[\frac{(v^2 -1)+1}{1- v^2}\right]dv $$
 
-Applying linearity
+<center>Applying linearity:
+</center>
 
 $$ = \int \left[\frac{(v^2 -1)}{1- v^2}\right]dv + \int \left[\frac{1}{1- v^2}\right]dv$$
 
 $$ = -v + \frac{1}{2}\left[\ln\left(\frac{v+1}{v-1}\right)\right]$$
+
+Now, solution to variable separable form is 
+
+$$ \ln(x)+ C = \frac{-1}{2}ln(1-v^2) -v + \frac{1}{2}\left[\ln\left(\frac{v+1}{v-1}\right)\right]$$
+
+As we have earlier substuited $y=vx$ , that means $v =\frac{y}{x}$..substituting value of $v$ in above equation. 
+
+$$ \ln(x)+ C = \frac{-1}{2}ln(1-(\frac{y}{x})^2) -\frac{y}{x} + \frac{1}{2}\left[\ln\left(\frac{\frac{y}{x}+1}{\frac{y}{x}-1}\right)\right]$$
+
 
 
 <hr />
