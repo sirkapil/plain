@@ -164,7 +164,10 @@ $$ \ln(x)+ C = \frac{-1}{2}ln(1-v^2) -v + \frac{1}{2}\left[\ln\left(\frac{v+1}{v
 
 As we have earlier substuited $y=vx$ , that means $v =\frac{y}{x}$..substituting value of $v$ in above equation. 
 
-$$ \ln(x)+ C = \frac{-1}{2}ln(1-\left(\frac{y}{x})^2\right) -\left(\frac{y}{x}\right) + \frac{1}{2}\left[\ln\left(\frac{\frac{y}{x}+1}{\frac{y}{x}-1}\right)\right]$$
+$$ \ln(x)+ C = \frac{-1}{2}\ln\left(1-\left(\frac{y}{x}\right)^2\right) -\left(\frac{y}{x}\right) + \frac{1}{2}\left[\ln\left(\frac{\frac{y}{x}+1}{\frac{y}{x}-1}\right)\right]$$
+
+
+$$ \ln(x)+ C = \frac{-1}{2}\ln\left(\frac{x^2 -y^2}{x^2}\right) -\left(\frac{y}{x}\right) + \frac{1}{2}\left[\ln\left(\frac{y+x}{y-x}\right)\right]$$
 
 
 
