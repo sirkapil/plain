@@ -44,7 +44,7 @@ putting value of $ydy$ into equation (1) ,we have
 $$ =\int \frac{-dt}{2 \sqrt{t}}
 $$
 
-$$ =\frac{-1}{2}\left(\int t^{-1/2} dt \right)$$
+$$ =\frac{-1}{2} \int t^{-1/2} dt$$
 
 $$=  - t^{1/2} $$ 
 
@@ -152,7 +152,7 @@ put $1-v^2 = t$ that means<br />$-2vdv =dt ; \\  vdv = \frac{-dt}{2}$
 
 We have ,
 
-$$I_1 = \int \left[\frac{-1}{2t}\right]dt \\ =\frac{-1}{2}[ln (t)] \\ =\frac{-1}{2}ln(1-v^2)$$
+$$I_1 = \int \left[\frac{-1}{2t}\right]dt \\ =\frac{-1}{2}[\ln |t|] \\ =\frac{-1}{2} \ln|1-v^2|$$
 
 Now, Second Integral 
 
@@ -163,15 +163,16 @@ $$I_2 = \int \left[\frac{v^2}{1- v^2}\right]dv \\= \int \left[\frac{(v^2 -1)+1}{
 
 $$ = \int \left[\frac{(v^2 -1)}{1- v^2}\right]dv + \int \left[\frac{1}{1- v^2}\right]dv$$
 
-$$ = -v + \frac{1}{2}\left[\ln\left(\frac{v+1}{v-1}\right)\right]$$
+$$ = -v + \frac{1}{2}\left[\ln\left|\frac{v+1}{v-1}\right|\right]$$
 
 Now, solution to variable separable form is 
 
-$$ \ln|x|+ C = \frac{-1}{2}ln|1-v^2| -v + \frac{1}{2}\left[\ln\left(\frac{|v+1|}{|v-1|}\right)\right]$$
+$$ \ln|x|+ C = \frac{-1}{2}\ln|1-v^2| -v + \frac{1}{2}\left[\ln\left|\frac{v+1}{v-1}\right|\right]$$
 
 As we have earlier substuited $y=vx$ , that means $v =\frac{y}{x}$..substituting value of $v$ in above equation. 
 
-$$ \ln|x|+ C = \frac{-1}{2}\ln\left(|1-\left(\frac{y}{x}|\right)^2\right) -\left(\frac{y}{x}\right) + \frac{1}{2}\left[\ln\left(|\frac{\frac{y}{x}+1}{\frac{y}{x}-1}|\right)\right]$$
+$$ \ln|x|+ C = \frac{-1}{2}\ln|1-(\frac{y}{x})^2| -v + \frac{1}{2}\left[\ln\left|\frac{\frac{y}{x}+1}{\frac{y}{x}-1}\right|\right]$$
+
 
 
 $$ \ln(x)+ C = \frac{-1}{2}\ln\left(\frac{x^2 -y^2}{x^2}\right) -\left(\frac{y}{x}\right) + \frac{1}{2}\left[\ln\left(\frac{y+x}{y-x}\right)\right]$$
