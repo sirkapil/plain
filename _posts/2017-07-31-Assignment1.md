@@ -41,7 +41,14 @@ $$\int \frac{-y}{\sqrt{1 + y^2}}dy.     \cdots  eq(1)$$
 assuming $1+y^2 = t$ then we'll have $$2y dy = dt \\  ydy = \frac{dt}{2}$$ <br />
 putting value of $ydy$ into equation (1) ,we have
 
-$$ =\int \frac{-dt}{2} \sqrt{t}} \\ =\frac{1}{2}\int -t^{-1/2} dt \\ =  - t^{1/2}} \\ =  \sqrt{t} $$
+$$ =\int \frac{-dt}{2} \sqrt{t}}
+$$
+
+$$ =\frac{1}{2}\left(\int -t^{-1/2} dt \right)$$
+
+$$=  - t^{1/2}} $$ 
+
+$$=  \sqrt{t} $$
 
 Replacing $t$ by $1+y^2$ , we have
 
@@ -58,11 +65,11 @@ $$= \int \frac{u^2}{u^2 -1}du \\ =\int (1+ \frac{1}{u^2 -1}) du \\ = u + \int \f
 
 Replacing $u$ by $\sqrt{x^2 +1}$, we have
 
-$$= \sqrt{x^2 +1} + \frac{1}{2} \ln\left(\frac{\sqrt{x^2 +1}-1}{\sqrt{x^2 +1}+1} \right)$$
+$$= \sqrt{x^2 +1} + \frac{1}{2} \ln\left(\left|\frac{\sqrt{x^2 +1}-1}{\sqrt{x^2 +1}+1}\right|\right)$$
 
 Hence , our solution to differential equation is :
 
-$$C - \sqrt{1+y^2} = \sqrt{x^2 +1} + \frac{1}{2} \ln\left(\left|\frac{\sqrt{x^2 +1}-1}{\sqrt{x^2 +1}+1}\right\ \right)$$
+$$C - \sqrt{1+y^2} = \sqrt{x^2 +1} + \frac{1}{2} \ln\left(\left|\frac{\sqrt{x^2 +1}-1}{\sqrt{x^2 +1}+1}\right|\right)$$
 
 where $C$ is arbitrary constant.
 
@@ -70,7 +77,7 @@ where $C$ is arbitrary constant.
 <p>
 <b>Answer 1</b><br />
 
-$$ \sqrt{1+y^2} + \sqrt{x^2 +1} + \frac{1}{2} \ln\left(\left|\frac{\sqrt{x^2 +1}-1}{\sqrt{x^2 +1}+1}\right\ \right) = C $$
+$$ \sqrt{1+y^2} + \sqrt{x^2 +1} + \frac{1}{2} \ln\left(\left|\frac{\sqrt{x^2 +1}-1}{\sqrt{x^2 +1}+1}\right|\right) = C $$
 
 where $C$ is arbitrary constant.
 
