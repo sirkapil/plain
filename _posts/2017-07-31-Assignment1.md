@@ -215,7 +215,7 @@ $$\ln(Ct) =  \frac{-1}{2}\left[\ln|1-v^2|\right] -\frac{3}{14}\ln\left(\frac{|v+
 <hr />
 ## Solution 5
 Given Differential equation is :
-
+![page-1-solution-question-5](//sirkapil.github.io/alpha/img/5-1.jpg)
 <hr />
 ## Solution 6
 Given Differential equation is :
