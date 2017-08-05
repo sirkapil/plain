@@ -24,7 +24,7 @@ or it can be written as
 
 $$-(x y) dy = \sqrt{1+ x^2} \sqrt{1 + y^2} dx$$
 
-or it can be written as
+or it can be written as :
 
 $$ \frac{-y}{\sqrt{1 + y^2}}dy = \frac{\sqrt{1+ x^2}}{x}dx$$
 
