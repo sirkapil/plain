@@ -231,7 +231,9 @@ Given Differential equation is :
 <hr />
 ## Solution 8
 Given Differential equation is :
+![page-1-solution-question-8](//sirkapil.github.io/alpha/img/8-1.jpg)<br />
 
+![page-2-solution-question-8](//sirkapil.github.io/alpha/img/8-2.jpg)<br />
 <hr />
 ## Solutiyon 9
 Given Differential equation is :
