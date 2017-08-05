@@ -253,7 +253,9 @@ Given Differential equation is :
 <hr />
 ## Solutiyon 9
 Given Differential equation is :
+![page-1-solution-question-9](//sirkapil.github.io/alpha/img/9-1.jpg)<br />
 
+![page-2-solution-question-9](//sirkapil.github.io/alpha/img/9-2.jpg)
 <hr />
 ## Solution 10
 Given Differential equation is :
