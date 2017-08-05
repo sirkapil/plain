@@ -139,50 +139,36 @@ Clearly, it is a variable separable form , so it can be solved by integrating bo
 
 $$\int \frac{v + v^2}{1- v^2}dv = \int \frac{dx}{x}$$
 
-<center>Applying linearity:
-</center>
-
-$$\ln(x) + C =\int \left[\frac{v}{1- v^2}+ \frac{v^2}{1- v^2}\right]dv \\ = \int \left[\frac{v}{1- v^2}\right]dv + \int \left[\frac{v^2}{1- v^2}\right]dv$$
-
-Let's name first integral as $I_1$ , second integral as $I_2$
-
-$$I_1 = \int \left[\frac{v}{1- v^2}\right]dv$$
-
-put $1-v^2 = t$ that means<br />$-2vdv =dt ; \\  vdv = \frac{-dt}{2}$
-
-We have ,
-
-$$I_1 = \int \left[\frac{-1}{2t}\right]dt \\ =\frac{-1}{2}[\ln |t|] \\ =\frac{-1}{2} \ln|1-v^2|$$
-
-Now, Second Integral 
-
-$$I_2 = \int \left[\frac{v^2}{1- v^2}\right]dv \\= \int \left[\frac{(v^2 -1)+1}{1- v^2}\right]dv $$
+$$\int \frac{(v+1) + (v^2 -1)}{1- v^2}dv = \int \frac{dx}{x}$$
 
 <center>Applying linearity:
 </center>
 
-$$ = \int \left[\frac{(v^2 -1)}{1- v^2}\right]dv + \int \left[\frac{1}{1- v^2}\right]dv$$
+$$\ln|x|+ C = \int \left[\frac{v+1}{1- v^2} +\frac{v^2 -1}{1- v^2} \right]dv$$
 
-$$ = -v + \frac{1}{2}\left[\ln\left|\frac{v+1}{v-1}\right|\right]$$
+$$ = \int \left[\frac{v+1}{(v+1)(1-v)} +\frac{-(1-v^2)}{1- v^2} \right]dv$$
 
-Now, solution to variable separable form is 
+$$ \ln|x| + C= -\ln|1-v| - v $$
 
-$$ \ln|x|+ C = \frac{-1}{2}\ln|1-v^2| -v + \frac{1}{2}\left[\ln\left|\frac{v+1}{v-1}\right|\right]$$
 
 As we have earlier substuited $y=vx$ , that means $v =\frac{y}{x}$..substituting value of $v$ in above equation. 
 
-$$ \ln|x|+ C = \frac{-1}{2}\ln\left|1-\frac{y^2}{x^2}\right| -v + \frac{1}{2}\left[\ln\left|\frac{\frac{y}{x}+1}{\frac{y}{x}-1}\right|\right]$$
+
+$$ \ln|x| + C= -\ln\left|1-\frac{y}{x}\right| - \frac{y}{x} $$
 
 
+$$C+ \ln|x| +\ln\left|\frac{x-y}{x}\right| + \frac{y}{x} = 0$$
 
-$$ \ln|x|+ C = \frac{-1}{2}\ln\left|\frac{x^2-y^2}{x^2}\right| -v + \frac{1}{2}\left[\ln\left|\frac{y+x}{y-x}\right|\right]$$
+Using properties of log function , $\ln(a)+ \ln(b) = \ln(ab)$
+
+$$ \ln|x-y| + \frac{y}{x} + C=0$$
 
 Hence , our final answer is :
 <div class="box1">
 <p>
 <b>Answer 3</b><br />
 
-$$ \frac{-1}{2}\ln\left|\frac{x^2-y^2}{x^2}\right| -v + \frac{1}{2}\left[\ln\left|\frac{y+x}{y-x}\right|\right] -\ln|x| = C$$
+$$ \ln|x-y| + \frac{y}{x} + C=0$$
 
 where $C$ is arbitrary constant.
 
