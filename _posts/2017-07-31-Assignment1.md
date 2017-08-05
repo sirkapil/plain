@@ -204,13 +204,29 @@ $$\int \frac{dt}{t} =\int \left[\frac{7v-3}{7(1-v^2)}\right]dv$$
 
 <center>Applying linearity</center>
 
-$$\ln(Ct) =\int \left[\frac{7v}{7(1-v^2)}\right]dv - \int \left[\frac{3}{7(1-v^2)}\right]dv$$
+$$\ln|Ct| =\int \left[\frac{7v}{7(1-v^2)}\right]dv - \int \left[\frac{3}{7(1-v^2)}\right]dv$$
 
 <p align="right">where $C$ is arbitrary integration constant.</p>
 
-$$\ln(Ct) = \int \frac{1}{-2}\left[\frac{-2v}{1-v^2}\right]dv - \int \frac{3}{7}\left[\frac{1}{1-v^2}\right]dv$$
+$$\ln|Ct| = \int \frac{1}{-2}\left[\frac{-2v}{1-v^2}\right]dv - \int \frac{3}{7}\left[\frac{1}{1-v^2}\right]dv$$
 
-$$\ln(Ct) =  \frac{-1}{2}\left[\ln|1-v^2|\right] -\frac{3}{14}\ln\left(\frac{|v+1|}{|v-1|}\right)$$
+$$\ln|Ct| =  \frac{-1}{2}\left[\ln|1-v^2|\right] -\frac{3}{14}\ln\left|\frac{v+1}{v-1}\right|$$
+
+Putting $v= \frac{y}{t}$
+ 
+$$\ln|Ct| =  \frac{-1}{2}\left[\ln|1-{\frac{y}{t}}^2|\right] -\frac{3}{14}\ln\left|\frac{\frac{y}{t}+1}{\frac{y}{t}-1}\right|$$
+
+$$\ln|Ct| =  \frac{-1}{2}\left[\ln|\frac{t^2 - y^2}{t^2}|\right] -\frac{3}{14}\ln\left|\frac{y+t}{y-t}\right|$$
+
+Putting $t =x-1$ , We have 
+
+$$\ln|x-1| + \lnC =  \frac{-1}{2}\left[\ln|\frac{(x-1)^2 - y^2}{(x-1)^2}|\right] -\frac{3}{14}\ln\left|\frac{y+x-1}{y-x+1}\right|$$
+
+<div class="box1">
+<p>Solution : <br />
+$$\ln|x-1| + \lnC =  \frac{-1}{2}\left[\ln|\frac{(x-1)^2 - y^2}{(x-1)^2}|\right] -\frac{3}{14}\ln\left|\frac{y+x-1}{y-x+1}\right|$$
+</p>
+</div>
 
 <hr />
 ## Solution 5
