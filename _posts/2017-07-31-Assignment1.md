@@ -223,7 +223,11 @@ Given Differential equation is :
 <hr />
 ## Solution 7
 Given Differential equation is :
+![page-1-solution-question-7](//sirkapil.github.io/alpha/img/7-1.jpg)<br />
 
+![page-2-solution-question-7](//sirkapil.github.io/alpha/img/7-2.jpg)<br />
+
+![page-3-solution-question-7](//sirkapil.github.io/alpha/img/7-3.jpg)
 <hr />
 ## Solution 8
 Given Differential equation is :
