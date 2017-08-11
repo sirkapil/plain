@@ -11,9 +11,20 @@ $$x(1-x^2)dy + (2x^2 y -y-a x^3)dx=0 $$
 
 Comparing with $M dx + N dy =0$ , We have
 $  M=(2x^2 y -y-a x^3) $ and $ N = x(1-x^2) $
+Now,
 
 $$ \frac{\delta M}{\delta y} = \frac{\delta }{\delta y}(2x^2 y -y-a x^3) \\ = 2x^2 -1$$
 
 $$ \frac{\delta N}{\delta x} = \frac{\delta }{\delta x}  x(1-x^2) \\ = 1-3x^2 $$
 
-$$ \frac{\delta M}{\delta y} -\frac{\delta N}{\delta x} =  2x^2-1-1+3x^2 \\ 5x^2-2 $$
+Clearly, It is not an exact differential equation because $ \frac{\delta M}{\delta y} \neq  \frac{\delta N}{\delta x} $
+
+$$ \frac{\delta M}{\delta y} -\frac{\delta N}{\delta x} =  2x^2-1-1+3x^2 \\ = 5x^2-2 $$
+
+$$ \frac{1}{N}\left(\frac{\delta M}{\delta y} -\frac{\delta N}{\delta x}\right) = \frac{1}{x(1-x^2)}\left(5x^2 -2\right)$$
+
+Since, $$ \frac{1}{N}\left(\frac{\delta M}{\delta y} -\frac{\delta N}{\delta x}\right) $$ is a function of $x$ only .
+Let  $$ \frac{1}{N}\left(\frac{\delta M}{\delta y} -\frac{\delta N}{\delta x}\right) = f(x)$$
+Our Integrating factor to transform original non-exact differential equation into a exact differential equation will be $e^{f(x)} $
+
+I.F. = $$ exp\left(\frac{1}{x(1-x^2)}\left(5x^2 -2\right)\right)$$
