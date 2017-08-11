@@ -21,10 +21,10 @@ Clearly, It is not an exact differential equation because $ \frac{\delta M}{\del
 
 $$ \frac{\delta M}{\delta y} -\frac{\delta N}{\delta x} =  2x^2-1-1+3x^2 \\ = 5x^2-2 $$
 
-$$ \frac{1}{N}\left(\frac{\delta M}{\delta y} -\frac{\delta N}{\delta x}\right) = \frac{1}{x(1-x^2)}\left(5x^2 -2\right)$$
+$$ \frac{1}{N}\left(\frac{\delta M}{\delta y} -\frac{\delta N}{\delta x}\right) = \frac{1}{x(1-x^2)}\left(5x^2 -2\right) \\ = \frac{(5x^2 -2)}{x(1-x^2)}$$
 
 Since, $$ \frac{1}{N}\left(\frac{\delta M}{\delta y} -\frac{\delta N}{\delta x}\right) $$ is a function of $x$ only .
 Let  $$ \frac{1}{N}\left(\frac{\delta M}{\delta y} -\frac{\delta N}{\delta x}\right) = f(x)$$
-Our Integrating factor to transform original non-exact differential equation into a exact differential equation will be $e^{f(x)} $
+Our Integrating factor to transform original non-exact differential equation into a exact differential equation will be $exp(\int f(x) dx) $
 
-I.F. = $$ exp\left(\frac{1}{x(1-x^2)}\left(5x^2 -2\right)\right)$$
+I.F. = $$ exp\left(\int \frac{(5x^2 -2)}{x(1-x^2)} dx \right)$$
