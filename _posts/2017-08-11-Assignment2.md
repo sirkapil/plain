@@ -28,3 +28,18 @@ Let  $$ \frac{1}{N}\left(\frac{\delta M}{\delta y} -\frac{\delta N}{\delta x}\ri
 Our Integrating factor to transform original non-exact differential equation into a exact differential equation will be $exp(\int f(x) dx) $
 
 I.F. = $$ exp\left(\int \frac{(5x^2 -2)}{x(1-x^2)} dx \right)$$
+
+
+## Solution 3
+
+Given differential eq. is
+
+$$ \frac{dy}{dx} = \frac{2}{x} y + x   & y(1)=2 $$
+
+$$ \frac{dy}{dx} - \frac{2}{x} y = x   $$
+
+Comparing with $ \frac{dy}{dx} + P(x) y = Q(x) $
+
+we have $P(x)=  \frac{-2}{x}$ and $Q(x)= x$
+
+Integrating Factor = $exp(\int P(x) dx)$
