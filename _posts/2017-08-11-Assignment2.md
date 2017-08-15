@@ -34,7 +34,7 @@ I.F. = $$ exp\left(\int \frac{(5x^2 -2)}{x(1-x^2)} dx \right)$$
 
 Given differential eq. is
 
-$$ \frac{dy}{dx} = \frac{2}{x} y + x   & y(1)=2 $$
+$$ \frac{dy}{dx} = \frac{2}{x} y + x   , y(1)=2 $$
 
 $$ \frac{dy}{dx} - \frac{2}{x} y = x   $$
 
@@ -42,4 +42,4 @@ Comparing with $ \frac{dy}{dx} + P(x) y = Q(x) $
 
 we have $P(x)=  \frac{-2}{x}$ and $Q(x)= x$
 
-Integrating Factor = $exp(\int P(x) dx)$
+Integrating Factor = $$exp(\int P(x) dx) \\= exp\left(\int \frac{-2}{x} dx \right) \\ = exp\left(-2\ln(x)\right) \\ = \frac{1}{x^2}$$
