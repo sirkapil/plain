@@ -51,11 +51,11 @@ Integrating Factor =
 
 Using formulae
 
-$$ y. I.F. = /int I.F. Q(x) dx $$
+$$ y. I.F. = \int I.F. Q(x) dx $$
 
 we have
 
-$$ y  \frac{1}{x^2} = \int x \frac{1}{x^2}dx \\ \frac{y}{x^2} = \int \frac{1}{x}dx \\ \frac{y}{x^2} = \ln(Cx) \\ y = x^2 \ln(Cx)  \cdots eq(1)$$
+$$ y  \frac{1}{x^2} = \int x \frac{1}{x^2}dx \\ \frac{y}{x^2} = \int \frac{1}{x}dx \\ \frac{y}{x^2} = \ln(Cx) \\ y = x^2 \ln(Cx)     \cdots eq(1)$$
 
 where C is integration Constant , Now using cauchy data $y(1)=2$
 
@@ -67,7 +67,7 @@ putting value of C  into eq(1) ,we have,
 
 $$y= x^2 (2 + \ln(x)) \\ = 2x^2 + x^2 \ln(x)$$
 
-<div id="box1">
+<div class="box1">
 <p>Hence, Our Solution is <br />
 
 
