@@ -34,12 +34,25 @@ I.F. = $$ exp\left(\int \frac{(5x^2 -2)}{x(1-x^2)} dx \right)$$
 
 Given differential eq. is
 
-$$ \frac{dy}{dx} = \frac{2}{x} y + x   , y(1)=2 $$
+$$ \frac{dy}{dx} = \frac{2}{x} y + x   $$
+
+with cauchy data $y(0)=1$
 
 $$ \frac{dy}{dx} - \frac{2}{x} y = x   $$
 
-Comparing with $ \frac{dy}{dx} + P(x) y = Q(x) $
+this is linear differential eq. so, comparing with standard linear differential eq. i.e.
+ $ \frac{dy}{dx} + P(x) y = Q(x) $
 
 we have $P(x)=  \frac{-2}{x}$ and $Q(x)= x$
 
-Integrating Factor = $$exp(\int P(x) dx) \\= exp\left(\int \frac{-2}{x} dx \right) \\ = exp\left(-2\ln(x)\right) \\ = \frac{1}{x^2}$$
+Integrating Factor =
+
+ $$exp(\int P(x) dx) \\= exp\left(\int \frac{-2}{x} dx \right) \\ = exp\left(-2\ln(x)\right) \\I.f. = \frac{1}{x^2}$$
+
+Using formulae
+
+$$ y. I.F. = /int I.F. Q(x) dx $$
+
+we have
+
+$$ y  \frac{1}{x^2} = \int x \frac{1}{x^2}dx \\ \frac{y}{x^2} = \int \frac{1}{x}dx \\ \frac{y}{x^2} = \ln(Cx) \\ y = x^2 \ln(Cx)$$
