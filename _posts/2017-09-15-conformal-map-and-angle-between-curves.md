@@ -8,17 +8,20 @@ title: conformal mappings and angle between curves
 Let G be a region containing points A and B,
 a 'PATH' from point A to point B , is a continuous function ($\gamma$) defined as
 
-$$\gamma : [a,b] \arrow G$$
+$$\gamma : [a,b] -> G$$
 
-such that $\gamma(a) =A$ , $\gamma(b) = B $
+such that $\gamma(a) =A$ , 
+$\gamma(b) = B $
 
 ### Examples of paths
 
 ### Smooth and Piecewise Smooth Paths :
 
-Let $\gamma$ be a path from A to B ; $\gamma(a) =A$ and $\gamma(b) =B$ , we say $\gamma$ is a smooth path from A to B iff $\gamma(t)$ is differentiable at each point $t \in (a,b)$
+Let $\gamma$ be a path from A to B ; $\gamma(a) =A$ and 
+$\gamma(b) =B$ , we say $\gamma$ is a smooth path from A to B iff 
+$\gamma(t)$ is differentiable at each point $t \in (a,b)$
 
-If $\gamma(t) fails to be differentiable at certain points ($k_1,k_2, \cdots , k_n$) between $(a,b)$ then we say $\gamma$ is piecewise smooth path.
+If $\gamma(t)$ fails to be differentiable at certain points ($k_1,k_2, \cdots , k_n$) between $(a,b)$ then we say $\gamma$ is piecewise smooth path.
 
 We'll be using term 'curve' for smooth or piecewise smooth paths.
 
