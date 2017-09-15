@@ -41,5 +41,5 @@ $$= arg({\gamma_1}'(t_1)) - arg({\gamma_2}'(t_2)) $$
 ## Conformal Map :
 
 A mapping that preserves angle between curves.
-
+That is if $\theta$ is angle b/w two smooth paths $\gamma_1$ and $\gamma_2$ passing through $z_0$ then angle ($\theta$) will remain unchanged b/w new paths obtained by composition of a map over 
 ## Analytic Map is Conformal map and conformal map is analytic map.
