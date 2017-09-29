@@ -5,13 +5,13 @@ title: conformal mappings and angle between curves
 
 ## Path :
 
-Let G be a region containing points A and B,
-a 'PATH' from point A to point B , is a continuous function ($\gamma$) defined as
+Let $\mathcal{G}$ be a complex region containing points A and B, i.e. $\mathcal{G} \subseteq \Bbb{C}$ ;
 
-$$\gamma : [a,b] @>>> \mathcal{G}$$
+we say $\gamma$ is a path from point A to point B if it is a continuous function defined as
 
-such that $\gamma(a) = A$ , 
-$\gamma(b) = B $
+$$\gamma : [a,b] \to \mathcal{G}$$
+
+s.t. $\gamma(a) = A$,$\gamma(b) = B$
 
 ### Examples of paths
 
@@ -37,8 +37,7 @@ $$ \bbox[yellow,5px,border:2px solid red] {\theta = arg[{\gamma_1}'(t_1)] - arg[
 Yes, Composition of analytic function over a smooth path is again a smooth path.
 
 <b>Proof :</b> 
-
-So we need to show $f\circ\gamma$ is analytic.
+we need to show $f\circ\gamma$ is analytic.
 
 ## How to calculate angle b/w new paths formed by composition of an analytic function over old paths ?
 
