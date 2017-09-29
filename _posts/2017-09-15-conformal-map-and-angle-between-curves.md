@@ -8,7 +8,7 @@ title: conformal mappings and angle between curves
 Let G be a region containing points A and B,
 a 'PATH' from point A to point B , is a continuous function ($\gamma$) defined as
 
-$$\gamma : [a,b] \to G$$
+$$\gamma : [a,b] @>>> \mathcal{G}$$
 
 such that $\gamma(a) = A$ , 
 $\gamma(b) = B $
@@ -38,7 +38,7 @@ Yes, Composition of analytic function over a smooth path is again a smooth path.
 
 <b>Proof :</b> 
 
-So we need to show $fo$
+So we need to show $f\circ\gamma$ is analytic.
 
 ## How to calculate angle b/w new paths formed by composition of an analytic function over old paths ?
 
@@ -48,6 +48,6 @@ So we need to show $fo$
 
 A mapping that preserves angle between curves.
 That is if $\theta$ is angle b/w two smooth paths $\gamma_1$ and $\gamma_2$ passing through $z_0$ then angle ($\theta$) will remain unchanged b/w new paths obtained by composition of a conformal map over $\gamma_1$ and $\gamma_2$ .
-if $f$ be conformal map , then between paths $\sigma_1 = fo\gamma_1$ and $\sigma_2 = fo\gamma_2$ through point $f(z_0)$is same as $\gamma_1$ and $\gamma_2$ through $z_0$
+if $f$ be conformal map , then between paths $\sigma_1 = f\circ\gamma_1$ and $\sigma_2 = f \circ \gamma_2$ through point $f(z_0)$is same as $\gamma_1$ and $\gamma_2$ through $z_0$
 
 ## Analytic Map is Conformal map and conformal map is analytic map.
