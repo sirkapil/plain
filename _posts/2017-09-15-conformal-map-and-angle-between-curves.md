@@ -30,9 +30,15 @@ We'll be using term 'curve' for smooth or piecewise smooth paths.
 Let $\gamma_1,\gamma_2$ be two smooth paths through point $z_0$ (i.e. $\gamma_1 (t_1)= \gamma_2 (t_2) =z_0$ ).
 Then , Angle between curves $\gamma_1$ and $\gamma_2$ at point $z_0$ is given by :
 
-$$ \bbox[yellow,5px] {= arg({\gamma_1}'(t_1)) - arg({\gamma_2}'(t_2)) }$$
+$$ \bbox[yellow,5px,border:2px solid red] {\theta = arg[{\gamma_1}'(t_1)] - arg[{\gamma_2}'(t_2)] }$$
 
-## composition of analytic function over a smooth path is again a smooth path :h
+## Composition of analytic function over a smooth path is again a smooth path ?
+
+Yes, Composition of analytic function over a smooth path is again a smooth path.
+
+<b>Proof :</b> 
+
+So we need to show $fo$
 
 ## How to calculate angle b/w new paths formed by composition of an analytic function over old paths ?
 
