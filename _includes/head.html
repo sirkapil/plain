@@ -51,4 +51,8 @@
  </script>
 {% endif %}
 
+{% if site.barefootnote == true %}
+<link rel="stylesheet" href="{{ "assets/css/bf.css" | relative_url }}">
+{% endif %}
+
 {% feed_meta %}
