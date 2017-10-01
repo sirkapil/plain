@@ -27,7 +27,7 @@ vigilink: true
 
 # BareFootNote
 
-barefootnote: false
+barefootnote: true
 
 # Site Build
 highlighter:        rouge
