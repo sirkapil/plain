@@ -25,9 +25,6 @@ lightbox: true
 
 vigilink: true
 
-# BareFootNote
-
-barefootnote: true
 
 # Site Build
 highlighter:        rouge
