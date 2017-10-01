@@ -3,7 +3,7 @@
 sitemap:
   exclude: 'yes'
 ---
-// BareFootNote Variables 
+// Variables
 //-------------------------------
 
 $sans-serif: -apple-system, BlinkMacSystemFont, San Francisco Text, Helvetica, Arial, "Helvetica Neue", Roboto, "Segoe UI", sans-serif;
@@ -19,6 +19,11 @@ $blog-title-size: 2.5rem;
 $post-title-size: 4.25rem;
 $base-line-height: 1.6;
 $code-line-height: 1.4;
+
+$footnote-font-size: 0.75em;
+$magic: 1.618em;
+
+$hero-heading-color: #fff;
 
 
 // Barefoot footnotes
