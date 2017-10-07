@@ -17,13 +17,11 @@ permalink:          /:title
 timezone:           Asia/Delhi # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 mathjax:            true  # enables support for mathjax - set to false to disable
 
-# LightBox
+# Extra Scripts
 
-lightbox: true
-
-# VigiLink
-
+lightbox: false
 vigilink: true
+txtpen:   false
 
 
 # Site Build
