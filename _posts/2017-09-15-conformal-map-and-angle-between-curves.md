@@ -37,7 +37,7 @@ $$ \bbox[yellow,5px,border:2px solid red] {\theta = arg[{\gamma_1}'(t_1)] - arg[
 Yes, Composition of analytic function over a smooth path is again a smooth path.
 
 <b>Proof :</b> 
-we need to show $f\circ\gamma$ is analytic.
+we need to show $f\circ\gamma$ is a path
 
 ## How to calculate angle b/w new paths formed by composition of an analytic function over old paths ?
 
