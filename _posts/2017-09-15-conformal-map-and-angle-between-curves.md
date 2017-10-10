@@ -30,7 +30,7 @@ We'll be using term 'curve' for smooth or piecewise smooth paths.
 Let $\gamma_1,\gamma_2$ be two smooth paths through point $z_0$ (i.e. $\gamma_1 (t_1)= \gamma_2 (t_2) =z_0$ ).
 Then , Angle between curves $\gamma_1$ and $\gamma_2$ at point $z_0$ is given by :
 
-$$ \bbox[platinum,7px,border:2px solid red] {\theta = arg[{\gamma_1}'(t_1)] - arg[{\gamma_2}'(t_2)] }$$
+$$ \bbox[white,8px,border:2px solid orange] {\theta = arg[{\gamma_1}'(t_1)] - arg[{\gamma_2}'(t_2)] }$$
 
 ## Composition of analytic function over a smooth path is again a smooth path ?
 
