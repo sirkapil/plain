@@ -6,18 +6,34 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link rel='stylesheet' type='text/css' href='https://cdn1.netlify.com/resources.css' />
-		
+<link rel='stylesheet' type='text/css' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css' />
+	
 	<title>Resources | Maintaibed by Kapil Chaudhary</title>
 	<style>
-a[href^="https://"] {
-  background: url(https://cdn1.netlify.com/img/icons8-external-link-15.png) center right no-repeat;
-  padding-right: 15px;
+a[href^="https://"]:after {
+  content: "\f08e";
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  display: inline-block;
+  text-decoration: none;
+  padding-left: 3px;
 }
-</style>
-<style>
-a[href^="//"] {
-  background: url(https://cdn1.netlify.com/img/icons8-external-link-15.png) center right no-repeat;
-  padding-right: 15px;
+
+		a[href^="//"]:after {
+  content: "\f08e";
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  display: inline-block;
+  text-decoration: none;
+  padding-left: 3px;
+}
+/* Strip from links to own domain or with class no_icon */
+a[href^="https://work.sirkapil.me"]:after,
+a.no_icon:after {
+  content:"" !important;
+  padding-left: 0;
 }
 </style>
 <style>
