@@ -2,17 +2,17 @@
 title:              "Kapil Chaudhary"
 description:        "Personal Blog, Mathematics , B.Sc. , M.Sc."
 google_verify:      epFgX0s_0RM3CdjwFcsewfXzPov2g8s9ZBOLyaIUH-o # Put your Google Verification here
-google_analytics:   UA-102957844-1
+google_analytics:   
 
 # Author Info
 author_name:    Kapil Chaudhary
-author_email:   kapil.math.hons@gmail.com 
+author_email:   kapil.math.hons@gmail.com
 author_gravatar:    a6134754e9d9ae085ad3187f8a2906c7
 twitter_username:   kapil_rc # Your Twitter username here
 github_username:    sirkapil # Your GitHub username here
 
 # Site Settings
-baseurl:            "https://kapil.netlify.com" # Base URL must end WITHOUT a slash, default: ""
+baseurl:            "https://work.sirkapil.me/" # Base URL must end WITHOUT a slash, default: ""
 permalink:          /:title
 timezone:           Asia/Delhi # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 mathjax:            true  # enables support for mathjax - set to false to disable
